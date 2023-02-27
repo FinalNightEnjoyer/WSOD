@@ -3537,5 +3537,10 @@
 #include "maps\~mapsystem\maps_unit_testing.dm"
 #include "maps\~unit_tests\unit_testing.dm"
 #include "mods\_modpack.dm"
+#include "mods\content\modern_nights\machinery\lighting.dm"
+#include "mods\content\modern_nights\structures\billboards.dm"
+#include "mods\content\modern_nights\structures\city_objects.dm"
+#include "mods\content\modern_nights\structures\city_signs.dm"
+#include "mods\content\modern_nights\turfs\city_turfs.dm"
 #include "~code\global_init.dm"
 // END_INCLUDE
