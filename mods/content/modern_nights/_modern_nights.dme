@@ -1,0 +1,10 @@
+#ifndef MODPACK_MODERN_NIGHTS
+#define MODPACK_MODERN_NIGHTS
+// BEGIN INCLUDE
+#include "modern_nights.dm"
+#include "datum\culture.dm"
+#include "datum\faction.dm"
+#include "datum\language.dm"
+#include "datum\location.dm"
+#endif
+// END_INCLUDE
