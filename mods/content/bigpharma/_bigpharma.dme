@@ -1,9 +1,0 @@
-#ifndef MODPACK_BIGPHARMA
-#define MODPACK_BIGPHARMA
-#include "_bigpharma.dm"
-#include "chems.dm"
-#include "extension.dm"
-#include "language.dm"
-#include "overrides.dm"
-#include "pill_bottle.dm"
-#endif

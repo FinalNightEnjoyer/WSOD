@@ -1,9 +1,0 @@
-{
-	"files.associations": {
-		"*.tmpl": "html"
-	},
-	"gitlens.advanced.blame.customArguments": [
-		"--ignore-revs-file",
-		".git-blame-ignore-revs"
-	]
-}

@@ -1,5 +1,0 @@
-#ifndef MODPACK_GENERIC_SHUTTLES
-#define MODPACK_GENERIC_SHUTTLES
-#include "_generic_shuttles.dm"
-#include "tanker/tanker.dm"
-#endif

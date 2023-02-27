@@ -1,1 +1,0 @@
-#define AREA_KEY(x) "[x.type], [x.name]"
