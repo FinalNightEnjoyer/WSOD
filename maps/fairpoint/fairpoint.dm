@@ -37,6 +37,7 @@
 	#include "fairpoint_shuttles.dm"
 	#include "fairpoint_network.dm"
 	#include "fairpoint_supply.dm"
+	#include "fairpoint_zlevels.dm"
 
 	#include "fairpoint-1.dmm"
 	#include "fairpoint-2.dmm"
