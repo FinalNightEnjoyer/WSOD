@@ -179,8 +179,8 @@
 	)
 	max_skill = list(
 		SKILL_COMBAT    = SKILL_MAX,
-	    SKILL_WEAPONS   = SKILL_MAX,
-	    SKILL_FORENSICS = SKILL_MAX
+		SKILL_WEAPONS   = SKILL_MAX,
+		SKILL_FORENSICS = SKILL_MAX
 	)
 	skill_points = 20
 	software_on_spawn = list(
@@ -226,8 +226,8 @@
 	)
 	max_skill = list(
 		SKILL_COMBAT    = SKILL_MAX,
-	    SKILL_WEAPONS   = SKILL_MAX,
-	    SKILL_FORENSICS = SKILL_MAX
+		SKILL_WEAPONS   = SKILL_MAX,
+		SKILL_FORENSICS = SKILL_MAX
 	)
 	software_on_spawn = list(
 		/datum/computer_file/program/digitalwarrant,

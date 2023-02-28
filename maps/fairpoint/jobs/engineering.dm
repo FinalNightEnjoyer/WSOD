@@ -70,9 +70,9 @@
 
 	max_skill = list(
 		SKILL_CONSTRUCTION = SKILL_MAX,
-	    SKILL_ELECTRICAL   = SKILL_MAX,
-	    SKILL_ATMOS        = SKILL_MAX,
-	    SKILL_ENGINES      = SKILL_MAX
+		SKILL_ELECTRICAL   = SKILL_MAX,
+		SKILL_ATMOS        = SKILL_MAX,
+		SKILL_ENGINES      = SKILL_MAX
 	)
 	skill_points = 30
 	software_on_spawn = list(
@@ -95,7 +95,7 @@
 
 	total_positions = 8
 	spawn_positions = 7
-	supervisors = "the maintenance director
+	supervisors = "the maintenance director"
 	selection_color = "#5b4d20"
 	economic_power = 5
 	minimal_player_age = 7
@@ -126,17 +126,17 @@
 	min_skill = list(
 		SKILL_LITERACY     = SKILL_ADEPT,
 		SKILL_COMPUTER     = SKILL_BASIC,
-	    SKILL_EVA          = SKILL_BASIC,
-	    SKILL_CONSTRUCTION = SKILL_ADEPT,
-	    SKILL_ELECTRICAL   = SKILL_BASIC,
-	    SKILL_ATMOS        = SKILL_BASIC,
-	    SKILL_ENGINES      = SKILL_BASIC
+		SKILL_EVA          = SKILL_BASIC,
+		SKILL_CONSTRUCTION = SKILL_ADEPT,
+		SKILL_ELECTRICAL   = SKILL_BASIC,
+		SKILL_ATMOS        = SKILL_BASIC,
+		SKILL_ENGINES      = SKILL_BASIC
 	)
 	max_skill = list(
 		SKILL_CONSTRUCTION = SKILL_MAX,
-	    SKILL_ELECTRICAL   = SKILL_MAX,
-	    SKILL_ATMOS        = SKILL_MAX,
-	    SKILL_ENGINES      = SKILL_MAX
+		SKILL_ELECTRICAL   = SKILL_MAX,
+		SKILL_ATMOS        = SKILL_MAX,
+		SKILL_ENGINES      = SKILL_MAX
 	)
 	skill_points = 20
 	software_on_spawn = list(

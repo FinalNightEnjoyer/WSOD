@@ -75,7 +75,7 @@
 		"lus","ain","ait","vou","lle","ire"
 	)
 
-	decl/language/human/arabic
+/decl/language/human/arabic
 	name = "Arabic"
 	desc = "Arabic, also known as 'the eloquent Arabic', is a Semitic language spoken primarily across the Arab world, the lingua franca of the Arab world and the liturgical language of Islam"
 	speech_verb = "says"
@@ -91,7 +91,7 @@
 		"da", "ks", "iga", "ih", "la", "ulf", "xe", "ayw", "'", "-"
 	)
 
-	decl/language/human/russian
+/decl/language/human/russian
 	name = "Russian"
 	desc = "The official language of the Russian Federation, russian is an East Slavic language. Besides Russia itself, Russian is an official language in Belarus, Kazakhstan, and Kyrgyzstan, and is used widely as a lingua franca throughout Ukraine, the Caucasus, Central Asia, and to some extent in the Baltic states. It was the de-facto language of the former Soviet Union, and continues to be used in public life with varying proficiency in all of the post-Soviet states."
 	speech_verb = "says"
@@ -107,7 +107,7 @@
 		"ver", "stv", "pro"
 	)
 
-	decl/language/human/spanish
+/decl/language/human/spanish
 	name = "Spanish"
 	desc = "Spanish is a Romance language of the Indo-European language family that evolved from colloquial Latin spoken on the Iberian Peninsula. Alongside English and French, it is also one of the most taught foreign languages throughout the world."
 	speech_verb = "says"
@@ -125,7 +125,7 @@
 		"ndo", "nha", "ver", "voc", "uma"
 	)
 
-	decl/language/human/portuguese
+/decl/language/human/portuguese
 	name = "Portuguese"
 	desc = "Portuguese  is a western Romance language of the Indo-European language family, originating in the Iberian Peninsula of Europe. It is an official language of Portugal, Brazil, Cape Verde, Angola, Mozambique, Guinea-Bissau and São Tomé and Príncipe. As the result of expansion during colonial times, a cultural presence of Portuguese speakers is also found around the world. Portuguese is part of the Ibero-Romance group that evolved from several dialects of Vulgar Latin in the medieval Kingdom of Galicia and the County of Portugal, and has kept some Celtic phonology in its lexicon"
 	speech_verb = "says"
@@ -143,7 +143,7 @@
 		"ndo", "nha", "ver", "voc", "uma"
 	)
 
-	decl/language/human/german
+/decl/language/human/german
 	name = "German"
 	desc = "German, also knowwn as Deutsch, is a West Germanic language mainly spoken in Central Europe. It is the most widely spoken and official or co-official language in Germany, Austria, Switzerland, Liechtenstein, and the Italian province of South Tyrol. German is most similar to other languages within the West Germanic language branch, including Afrikaans, Dutch, English, the Frisian languages, Low German, Luxembourgish, Scots, and Yiddish. It also contains close similarities in vocabulary to some languages in the North Germanic group, such as Danish, Norwegian, and Swedish. German is the second-most widely spoken Germanic language after English, which is also a West Germanic language."
 	speech_verb = "says"
@@ -163,7 +163,7 @@
 		"ige","ich","der","sch","den","schloss","nte",
 		"ach","ben","cht","sch","lle","schlus")
 
-	/decl/language/human/polish
+/decl/language/human/polish
 	name = "Polish"
 	desc = "One of the most common languages known around the world, usually picked up as a secondary during your education years"
 	speech_verb = "says"
@@ -192,7 +192,7 @@
 		"men", "iyaa", "main", "apn"
 	)
 
-decl/language/human/italian
+/decl/language/human/italian
 	name = "Italian"
 	desc = "Italian, or lingua italiana, is a Romance language of the Indo-European language family that evolved from the Vulgar Latin of the Roman Empire. Together with Sardinian, Italian is the least divergent language from Latin.\
 	Spoken by about 85 million people, Italian is an official language in Italy, Switzerland, San Marino, and Vatican City. It has official minority status in Croatia and in some areas of Slovenian Istria.\

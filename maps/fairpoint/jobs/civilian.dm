@@ -61,8 +61,8 @@
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_COOKING   = SKILL_BASIC,
-	    SKILL_BOTANY    = SKILL_BASIC,
-	    SKILL_CHEMISTRY = SKILL_BASIC
+		SKILL_BOTANY    = SKILL_BASIC,
+		SKILL_CHEMISTRY = SKILL_BASIC
 	)
 
 /datum/job/chef
@@ -82,8 +82,8 @@
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_COOKING   = SKILL_ADEPT,
-	    SKILL_BOTANY    = SKILL_BASIC,
-	    SKILL_CHEMISTRY = SKILL_BASIC
+		SKILL_BOTANY    = SKILL_BASIC,
+		SKILL_CHEMISTRY = SKILL_BASIC
 	)
 
 /datum/job/hydro
@@ -103,13 +103,13 @@
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
 		SKILL_BOTANY    = SKILL_BASIC,
-	    SKILL_CHEMISTRY = SKILL_BASIC
+		SKILL_CHEMISTRY = SKILL_BASIC
 	)
 	event_categories = list(ASSIGNMENT_GARDENER)
 
 //Cargo
 /datum/job/qm
-	title = "Shipping Manager
+	title = "Shipping Manager"
 	department_types = list(/decl/department/supply)
 	total_positions = 1
 	spawn_positions = 1
@@ -139,10 +139,10 @@
 	outfit_type = /decl/hierarchy/outfit/job/cargo/qm
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
-	    SKILL_FINANCE  = SKILL_BASIC,
-	    SKILL_HAULING  = SKILL_BASIC,
-	    SKILL_EVA      = SKILL_BASIC,
-	    SKILL_PILOT    = SKILL_BASIC
+		SKILL_FINANCE  = SKILL_BASIC,
+		SKILL_HAULING  = SKILL_BASIC,
+		SKILL_EVA      = SKILL_BASIC,
+		SKILL_PILOT    = SKILL_BASIC
 	)
 	max_skill = list(
 		SKILL_PILOT    = SKILL_MAX
@@ -217,7 +217,7 @@
 	min_skill = list(
 		SKILL_LITERACY = SKILL_ADEPT,
 		SKILL_HAULING  = SKILL_ADEPT,
-	    SKILL_EVA      = SKILL_BASIC
+		SKILL_EVA      = SKILL_BASIC
 	)
 	max_skill = list(
 		SKILL_PILOT    = SKILL_MAX
