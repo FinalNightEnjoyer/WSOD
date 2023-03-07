@@ -162,7 +162,6 @@
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "csQ" = (
@@ -251,8 +250,7 @@
 /turf/simulated/floor/plating,
 /area/fairpoint/maintenance/arrivals)
 "dVP" = (
-/obj/machinery/power/apc{
-	cell_type = /obj/item/cell/super;
+/obj/machinery/power/apc/super{
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
@@ -297,7 +295,6 @@
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "eld" = (
@@ -577,7 +574,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint{
 	name = "landing floor";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "gNn" = (
@@ -622,7 +618,6 @@
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "hin" = (
@@ -714,7 +709,6 @@
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "iJw" = (
@@ -763,14 +757,12 @@
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "jdZ" = (
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "jfv" = (
@@ -800,7 +792,6 @@
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "jlb" = (
@@ -1016,18 +1007,13 @@
 	icon_state = "warning_dust";
 	dir = 8
 	},
-/obj/machinery/light/small{
-	brightness_color = "#DA0205";
-	brightness_power = 1;
-	brightness_range = 5
-	},
+/obj/machinery/light/small/emergency,
 /obj/structure/railing{
 	dir = 8
 	},
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "mcB" = (
@@ -1203,7 +1189,6 @@
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "pcO" = (
@@ -1389,7 +1374,6 @@
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "rHr" = (
@@ -1436,10 +1420,7 @@
 	},
 /area/fairpoint/maintenance/arrivals)
 "swu" = (
-/obj/machinery/light/small{
-	brightness_color = "#DA0205";
-	brightness_power = 1;
-	brightness_range = 5;
+/obj/machinery/light/small/emergency{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -1524,11 +1505,7 @@
 /area/fairpoint/medical/morgue)
 "trQ" = (
 /obj/effect/floor_decal/corner/blue/border,
-/obj/machinery/light/small{
-	brightness_color = "#DA0205";
-	brightness_power = 1;
-	brightness_range = 5
-	},
+/obj/machinery/light/small/emergency,
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/hallway/secondary/exit)
 "txi" = (
@@ -1642,7 +1619,6 @@
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "vlD" = (
@@ -1758,7 +1734,6 @@
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "wKa" = (
@@ -1774,7 +1749,6 @@
 /turf/simulated/floor/tiled{
 	color = "";
 	name = "exterior tiles";
-	outdoors = 1
 	},
 /area/fairpoint/hallway/secondary/exit)
 "wQP" = (
