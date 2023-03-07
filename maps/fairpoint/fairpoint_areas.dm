@@ -71,17 +71,14 @@
 /area/fairpoint/engineering/ce
 	name = "\improper Maintenance - Director' Office"
 	req_access = list(access_ce)
-	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/fairpoint/engineering/sysadmin
 	name = "\improper Maintenance | City Hall - System Administrator's Office"
 	req_access = list(access_ce)
-	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/fairpoint/police/cop
 	name = "\improper Police - CoP's Office"
 	req_access = list(access_hos)
-	holomap_color = HOLOMAP_AREACOLOR_SECURITY
 
 /area/fairpoint/cityhall/hop
 	name = "\improper City Hall - Clerk's Office"
@@ -90,12 +87,10 @@
 /area/fairpoint/science/rd
 	name = "\improper Research - RD's Office"
 	req_access = list(access_rd)
-	holomap_color = HOLOMAP_AREACOLOR_SCIENCE
 
 /area/fairpoint/medical/cmo
 	name = "\improper Hospital - Director's Office"
 	req_access = list(access_cmo)
-	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
 
 //TCOMS.
 
@@ -119,7 +114,6 @@
 	icon_state = "engineering"
 	ambience = list('sound/ambience/ambisin1.ogg','sound/ambience/ambisin2.ogg','sound/ambience/ambisin3.ogg','sound/ambience/ambisin4.ogg')
 	req_access = list(access_engine)
-	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 //Generic
 /area/fairpoint/engineering/foyer
@@ -159,7 +153,6 @@
 
 /area/fairpoint/medical
 	req_access = list(access_medical)
-	holomap_color = HOLOMAP_AREACOLOR_MEDICAL
 
 //Reception and such
 
@@ -279,7 +272,6 @@
 	name = "\improper Research and Development"
 	icon_state = "research"
 	req_access = list(access_research)
-	holomap_color = HOLOMAP_AREACOLOR_SCIENCE
 
 //Labs
 
@@ -333,7 +325,6 @@
 	name = "\improper Police Station"
 	area_flags = AREA_FLAG_SECURITY
 	req_access = list(access_security)
-	holomap_color = HOLOMAP_AREACOLOR_SECURITY
 
 //Lobby and such
 
@@ -439,7 +430,6 @@
 	name = "\improper Shipping"
 	icon_state = "quart"
 	req_access = list(access_cargo)
-	holomap_color = HOLOMAP_AREACOLOR_CARGO
 
 /area/fairpoint/shipping/office
 	name = "\improper Shipping Office"
@@ -481,7 +471,6 @@
 	name = "\improper Maintenance Washroom"
 	icon_state = "toilet"
 	sound_env = SMALL_ENCLOSED
-	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
 /area/fairpoint/crew_quarters/locker
 	name = "\improper Locker Room"
@@ -601,7 +590,6 @@
 	turf_initializer = /decl/turf_initializer/maintenance
 	forced_ambience = list('sound/ambience/maintambience.ogg')
 	req_access = list(access_maint_tunnels)
-	holomap_color = HOLOMAP_AREACOLOR_MAINTENANCE
 
 /area/fairpoint/maintenance/arrivals
 	name = "\improper Sewers"
