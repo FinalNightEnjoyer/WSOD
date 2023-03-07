@@ -184,12 +184,6 @@
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
 	},
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
 /obj/structure/table/reinforced,
 /obj/item/clothing/accessory/armor/helmcover/blue,
 /obj/item/clothing/accessory/armor/helmcover/blue,
@@ -714,14 +708,6 @@
 /obj/machinery/door/airlock/glass/civilian,
 /turf/simulated/floor/wood,
 /area/fairpoint/library)
-"aPg" = (
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/fairpoint/street/east)
 "aQe" = (
 /obj/machinery/newscaster{
 	layer = 3.3;
@@ -964,11 +950,6 @@
 "aWx" = (
 /obj/effect/floor_decal/corner/blue{
 	dir = 6
-	},
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law)
@@ -1255,10 +1236,6 @@
 	dir = 8;
 	icon_state = "tube_map"
 	},
-/obj/machinery/power/apc/super{
-	icon_state = "apc0";
-	dir = 8
-	},
 /obj/structure/cable,
 /obj/structure/hand_cart{
 	icon_state = "cart";
@@ -1390,11 +1367,6 @@
 	tag = "icon-bordercolor (WEST)";
 	icon_state = "bordercolor";
 	dir = 8
-	},
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
 	},
 /obj/structure/hygiene/toilet,
 /turf/simulated/floor/tiled/white,
@@ -1868,7 +1840,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/brig)
 "cad" = (
-/obj/machinery/power/apc/super/super,
 /obj/structure/cable,
 /turf/simulated/floor/tiled,
 /area/fairpoint/shipping/storage)
@@ -1984,10 +1955,6 @@
 /obj/item/hatchet,
 /obj/item/wirecutters/clippers,
 /obj/item/wrench,
-/obj/machinery/power/apc/super{
-	icon_state = "apc0";
-	dir = 1
-	},
 /obj/item/minihoe,
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -3032,11 +2999,6 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 6
 	},
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/vacantoffice)
 "dEM" = (
@@ -3206,11 +3168,6 @@
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/fairpoint/crew_quarters/bar)
 "dVP" = (
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
 /obj/machinery/vending/games,
 /turf/simulated/floor/tiled,
 /area/fairpoint/hallway/secondary/exit)
@@ -3372,11 +3329,6 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/hallway/secondary/exit)
 "egV" = (
-/obj/machinery/power/apc/super{
-	dir = 2;
-	name = "south bump";
-	pixel_y = -24
-	},
 /obj/machinery/computer/design_console,
 /turf/simulated/floor/greengrid,
 /area/fairpoint/research/server)
@@ -3533,18 +3485,6 @@
 /obj/item/storage/firstaid,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/biostorage)
-"eoQ" = (
-/obj/effect/floor_decal/corner/purple{
-	dir = 5
-	},
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled/white,
-/area/fairpoint/research)
 "eoS" = (
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (EAST)";
@@ -3672,11 +3612,6 @@
 /obj/machinery/camera/network/medbay{
 	icon_state = "camera";
 	dir = 1
-	},
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/sleeper)
@@ -3918,11 +3853,6 @@
 	c_tag = "SCI - Research Auxiliary Access";
 	dir = 4
 	},
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/research/lab)
 "eMC" = (
@@ -4049,15 +3979,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/fairpoint/library)
-"eSK" = (
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
-/turf/simulated/floor/wood/walnut,
-/area/fairpoint/crew_quarters/mayor)
 "eSN" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 10
@@ -4245,15 +4166,6 @@
 /obj/item/paper_bin,
 /turf/simulated/floor/tiled,
 /area/fairpoint/law/judge)
-"fkl" = (
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
-/turf/simulated/floor/lino,
-/area/fairpoint/police/detectives_office)
 "fkA" = (
 /obj/machinery/door/airlock{
 	name = "City Hall Bathroom"
@@ -4402,14 +4314,6 @@
 /obj/structure/sign/neon/bathrooms,
 /turf/simulated/wall/concrete,
 /area/fairpoint/street/north)
-"fsC" = (
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/dark,
-/area/fairpoint/crew_quarters/bar)
 "fsS" = (
 /obj/structure/bookcase/manuals/xenoarchaeology,
 /turf/simulated/floor/tiled,
@@ -4844,14 +4748,6 @@
 "fVV" = (
 /turf/simulated/wall/r_wall,
 /area/fairpoint/engineering/storage)
-"fXg" = (
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled,
-/area/fairpoint/research/misc_lab)
 "fXn" = (
 /obj/structure/table/glass,
 /obj/machinery/computer/modular/telescreen/preset/civilian,
@@ -5554,11 +5450,6 @@
 	c_tag = "SCI - Research Auxiliary Access";
 	dir = 4
 	},
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
 /obj/structure/table/reinforced,
 /turf/simulated/floor/tiled,
 /area/fairpoint/research/xenobiology)
@@ -5954,12 +5845,6 @@
 /area/fairpoint/street)
 "hjK" = (
 /obj/structure/table/reinforced,
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
 /obj/item/storage/box/csi_markers,
 /obj/item/storage/box/csi_markers,
 /turf/simulated/floor/tiled/white,
@@ -7114,11 +6999,6 @@
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police)
 "iOU" = (
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /obj/machinery/light/small{
 	dir = 1;
 	pixel_y = 0
@@ -7170,14 +7050,6 @@
 /obj/effect/floor_decal/corner/red,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/meeting)
-"iSl" = (
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/fairpoint/police/warden)
 "iTA" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -7503,11 +7375,6 @@
 /obj/structure/window/reinforced{
 	dir = 2;
 	health = 1e+006
-	},
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
 	},
 /obj/structure/bed/sofa{
 	dir = 5
@@ -8930,15 +8797,6 @@
 /obj/effect/floor_decal/industrial/warning/dust,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
-"lfJ" = (
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
-/turf/simulated/floor/wood/ebony,
-/area/fairpoint/crew_quarters/mayor)
 "lfL" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/box/cups,
@@ -9750,20 +9608,6 @@
 /obj/structure/bed/chair/comfy/brown,
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/crew_quarters/mayor)
-"mhX" = (
-/obj/structure/bed/sofa{
-	dir = 10
-	},
-/obj/structure/window/reinforced/tinted{
-	dir = 1
-	},
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/fairpoint/crew_quarters/bar)
 "mif" = (
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -10432,17 +10276,6 @@
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/east)
-"ndN" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 9
-	},
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled,
-/area/fairpoint/police/vacantoffice)
 "ndV" = (
 /obj/machinery/photocopier,
 /turf/simulated/floor/lino,
@@ -10527,14 +10360,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
-"nkX" = (
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/fairpoint/maintenance/police)
 "nld" = (
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/carpet,
@@ -10962,14 +10787,6 @@
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
 /area/fairpoint/street/east)
-"nGq" = (
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/wood/maple,
-/area/fairpoint/library)
 "nGK" = (
 /obj/effect/floor_decal/corner/paleblue/full,
 /turf/simulated/floor/tiled/white,
@@ -10993,11 +10810,6 @@
 /area/fairpoint/shipping/office)
 "nID" = (
 /obj/structure/mopbucket,
-/obj/machinery/power/apc/super{
-	dir = 2;
-	name = "south bump";
-	pixel_y = -24
-	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/janitor)
 "nJx" = (
@@ -11283,14 +11095,6 @@
 /obj/structure/door/plastic,
 /turf/simulated/floor/tiled/white/monotile,
 /area/fairpoint/street/north)
-"oeq" = (
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/dark,
-/area/fairpoint/police)
 "oey" = (
 /obj/effect/floor_decal/corner/paleblue/border,
 /turf/simulated/floor/tiled,
@@ -11555,12 +11359,6 @@
 /area/fairpoint/medical/reception)
 "owo" = (
 /obj/effect/floor_decal/corner/red/diagonal,
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
 /obj/structure/closet/secure_closet/guncabinet{
 	name = "City Hall Guard Locker";
 	req_access = list(63)
@@ -12198,19 +11996,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/law)
-"prL" = (
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/obj/effect/floor_decal/corner/paleblue/full{
-	tag = "icon-corner_white_full (EAST)";
-	icon_state = "corner_white_full";
-	dir = 4
-	},
-/turf/simulated/floor/tiled/white,
-/area/fairpoint/medical/exam_room)
 "psu" = (
 /obj/machinery/vending/fitness,
 /turf/simulated/floor/tiled,
@@ -12311,14 +12096,6 @@
 	},
 /turf/simulated/floor/tiled/monotile,
 /area/fairpoint/cityhall)
-"pyQ" = (
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled,
-/area/fairpoint/law/lawoffice)
 "pzn" = (
 /obj/effect/floor_decal/carpet/blue2,
 /obj/effect/floor_decal/carpet/blue2{
@@ -12371,11 +12148,6 @@
 "pBw" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
-	},
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
 	},
 /obj/structure/hygiene/faucet{
 	dir = 4
@@ -13259,14 +13031,6 @@
 /obj/effect/wingrille_spawn/reinforced/polarized,
 /turf/simulated/floor/tiled,
 /area/fairpoint/law/judge)
-"qOq" = (
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/wall/elevator,
-/area/fairpoint/police)
 "qOI" = (
 /obj/effect/floor_decal/carpet/blue{
 	dir = 1
@@ -13500,12 +13264,6 @@
 /area/fairpoint/medical/surgery2)
 "rar" = (
 /obj/structure/closet/wardrobe/robotics_black,
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/research/robotics)
 "raI" = (
@@ -14572,14 +14330,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/lobby)
-"szk" = (
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/white,
-/area/fairpoint/medical/medbay)
 "szT" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
@@ -15167,14 +14917,6 @@
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/east)
-"tkL" = (
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/steel_grid,
-/area/fairpoint/hallway/secondary/exit)
 "tkM" = (
 ,
 /obj/structure/bed/sofa{
@@ -15332,15 +15074,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/street/west)
-"tqR" = (
-/obj/effect/floor_decal/corner/blue/diagonal,
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/fairpoint/police/brig/interrogation)
 "tqS" = (
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/plating,
@@ -15399,22 +15132,6 @@
 	},
 /turf/exterior/concrete,
 /area/fairpoint/street/north)
-"tsm" = (
-/obj/effect/floor_decal/corner/paleblue{
-	dir = 8
-	},
-/obj/effect/floor_decal/corner/white{
-	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
-	dir = 1
-	},
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/white,
-/area/fairpoint/medical/sleeper)
 "ttD" = (
 /turf/exterior/concrete/road/garage,
 /area/fairpoint/cityhall)
@@ -15829,15 +15546,6 @@
 /obj/item/stack/tape_roll/barricade_tape/toilet,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/street/east)
-"tVT" = (
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled,
-/area/fairpoint/cityhall)
 "tVZ" = (
 /obj/structure/flora/pottedplant{
 	tag = "icon-plant-10";
@@ -15974,15 +15682,6 @@
 /obj/structure/table/woodentable,
 /turf/simulated/floor/tiled/stone,
 /area/fairpoint/street/west)
-"ufY" = (
-/obj/effect/floor_decal/corner/blue/diagonal,
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
-/turf/simulated/floor/tiled/techfloor,
-/area/fairpoint/police/brig/interrogation)
 "ugr" = (
 /turf/simulated/wall/concrete,
 /area/fairpoint/janitor)
@@ -16036,11 +15735,6 @@
 	tag = "icon-bordercolor (WEST)";
 	icon_state = "bordercolor";
 	dir = 8
-	},
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
 	},
 /obj/structure/hygiene/toilet,
 /turf/simulated/floor/tiled/white,
@@ -16246,17 +15940,6 @@
 /obj/item/beach_ball,
 /turf/simulated/floor/beach/sand,
 /area/fairpoint/street)
-"uzG" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled/dark/monotile,
-/area/fairpoint/street/east)
 "uAg" = (
 /obj/machinery/atm{
 	name = "ATM";
@@ -16358,11 +16041,6 @@
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Prison Courtyard East";
 	dir = 9
-	},
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/detectives_office)
@@ -16505,11 +16183,6 @@
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/cityhall)
 "uLI" = (
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
 /obj/structure/closet/secure_closet/paramedic,
 /obj/item/defibrillator/compact/loaded,
 /turf/simulated/floor/tiled/white,
@@ -16584,18 +16257,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
-"uRI" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 4
-	},
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled/dark,
-/area/fairpoint/police/meeting)
 "uRJ" = (
 /turf/simulated/floor/wood/usedup,
 /area/fairpoint/street/east)
@@ -16604,11 +16265,6 @@
 /obj/structure/bed/sofa/right{
 	icon_state = "sofaend_right";
 	dir = 8
-	},
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/lobby)
@@ -16738,24 +16394,11 @@
 "uZh" = (
 /obj/structure/closet/crate/trashcart,
 /obj/effect/decal/cleanable/cobweb,
-/obj/machinery/power/apc/super/super{
-	icon_state = "apc0";
-	dir = 1
-	},
 /obj/structure/cable{
 	icon_state = "0-2"
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/shipping/miningdock)
-"uZX" = (
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
-/obj/effect/floor_decal/steeldecal/steel_decals_central6,
-/turf/simulated/floor/tiled/steel_ridged,
-/area/fairpoint/research/xenobiology/xenoflora_storage)
 "vaI" = (
 /obj/structure/window/reinforced,
 /turf/simulated/floor/tiled/dark,
@@ -17537,11 +17180,6 @@
 	c_tag = "SEC - Brig Starboard";
 	dir = 9
 	},
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
 "vVW" = (
@@ -18049,18 +17687,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
-"wBe" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 5
-	},
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
-/turf/simulated/floor/tiled/dark,
-/area/fairpoint/police)
 "wBD" = (
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled/old_tile,
@@ -18235,14 +17861,6 @@
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/shipping/miningdock)
-"wMO" = (
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
-/turf/simulated/floor/tiled,
-/area/fairpoint/medical/patient_wing)
 "wNo" = (
 /obj/machinery/door/blast/shutters{
 	dir = 2;
@@ -18594,12 +18212,6 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/lobby)
 "xey" = (
-/obj/machinery/power/apc/super{
-	dir = 1;
-	name = "north bump";
-	pixel_x = 0;
-	pixel_y = 24
-	},
 /obj/item/stack/tape_roll/barricade_tape/toilet,
 /obj/structure/table/reinforced,
 /obj/item/stack/tape_roll/barricade_tape/toilet,
@@ -18668,11 +18280,6 @@
 /turf/exterior/wildgrass,
 /area/fairpoint/street/outskirts)
 "xiQ" = (
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /obj/structure/bed/sofa{
 	dir = 9
 	},
@@ -19252,11 +18859,6 @@
 	tag = "icon-corner_white (NORTH)";
 	icon_state = "corner_white";
 	dir = 1
-	},
-/obj/machinery/power/apc/super{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/recharger,
@@ -26033,7 +25635,7 @@ vKK
 rvu
 kZv
 tCX
-tkL
+wiL
 sdZ
 hIL
 wiL
@@ -32249,7 +31851,7 @@ pNB
 pNB
 pNB
 pNB
-oeq
+pNB
 pNB
 pSw
 pvu
@@ -32283,7 +31885,7 @@ bUt
 fnC
 igg
 xxL
-eSK
+vDB
 vDB
 vDB
 vDB
@@ -32318,7 +31920,7 @@ joL
 ozV
 cpq
 hFg
-wMO
+hFg
 hFg
 uUZ
 hFg
@@ -32435,7 +32037,7 @@ dkI
 llZ
 bxh
 dKT
-nkX
+tDZ
 tDZ
 bxh
 pNB
@@ -32869,7 +32471,7 @@ nqk
 wgK
 rlw
 jVK
-fkl
+wDE
 wDE
 wDE
 mUh
@@ -33269,7 +32871,7 @@ ngt
 drO
 vgN
 eXi
-wBe
+nqk
 wgK
 aMM
 bHL
@@ -33447,7 +33049,7 @@ txU
 vQy
 wJB
 cIt
-uRI
+riO
 lHc
 hXT
 tlF
@@ -33464,7 +33066,7 @@ drO
 drO
 ngt
 drO
-ndN
+drO
 uGq
 uGq
 ngt
@@ -33697,7 +33299,7 @@ bUt
 fnC
 igg
 xxL
-lfJ
+emw
 fPy
 emw
 htN
@@ -33743,7 +33345,7 @@ uLI
 wZY
 mXQ
 kEe
-szk
+kEe
 jNJ
 cGa
 bUt
@@ -34882,7 +34484,7 @@ ykF
 qxM
 wFc
 iNU
-tqR
+wKo
 nqa
 tDL
 nqk
@@ -35078,7 +34680,7 @@ gaD
 pNB
 wAi
 tDL
-ufY
+elt
 elt
 elt
 qxM
@@ -35961,7 +35563,7 @@ xCj
 xij
 kQK
 kKD
-tsm
+kKD
 xij
 wzT
 ukS
@@ -36120,7 +35722,7 @@ bUt
 bUt
 fnC
 igg
-tVT
+aEr
 ipp
 nnj
 wxE
@@ -36281,7 +35883,7 @@ tnf
 sZo
 otG
 xoo
-qOq
+xoo
 xoo
 xoo
 xoo
@@ -36295,7 +35897,7 @@ bxT
 hNg
 cJH
 uXG
-oeq
+pNB
 pNB
 pNB
 uBF
@@ -36903,7 +36505,7 @@ nvX
 cJH
 tmr
 pNB
-oeq
+pNB
 hGj
 fMQ
 wgK
@@ -38718,7 +38320,7 @@ glG
 fEb
 wNQ
 ylS
-iSl
+ylS
 nDQ
 fEb
 dVA
@@ -39795,7 +39397,7 @@ lzJ
 fRS
 xcp
 tiD
-prL
+rOX
 sNA
 nqp
 eaC
@@ -40603,7 +40205,7 @@ rOX
 aTG
 wtR
 tiD
-prL
+rOX
 sNA
 miN
 eaC
@@ -40969,7 +40571,7 @@ bUt
 vSw
 dji
 ieM
-pyQ
+aJe
 cSN
 aJe
 aJe
@@ -44566,7 +44168,7 @@ dkI
 llZ
 lBT
 vjw
-uZX
+pKr
 klJ
 pKr
 kDr
@@ -45253,7 +44855,7 @@ efW
 kgD
 hYT
 kgD
-aPg
+kgD
 kgD
 kgD
 kgD
@@ -45418,7 +45020,7 @@ xmm
 pIs
 hJq
 hJq
-fsC
+hJq
 hJq
 hJq
 hJq
@@ -47069,7 +46671,7 @@ aTF
 bem
 bem
 sKV
-aPg
+kgD
 kgD
 kgD
 kgD
@@ -47646,7 +47248,7 @@ gZB
 gZB
 hgD
 lZm
-mhX
+pfu
 blD
 xXb
 upt
@@ -48020,7 +47622,7 @@ ekT
 mpp
 mpp
 mpp
-nGq
+mpp
 oAK
 mpp
 ekT
@@ -49424,7 +49026,7 @@ cPj
 muB
 sZu
 iqc
-eoQ
+bAf
 lkC
 lkC
 kpu
@@ -49888,7 +49490,7 @@ iWK
 hLk
 bem
 sKV
-uzG
+dwH
 kgD
 kgD
 kgD
@@ -51643,7 +51245,7 @@ nWK
 nug
 csO
 tFZ
-fXg
+tFZ
 jYk
 nug
 tFZ

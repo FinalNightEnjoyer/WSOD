@@ -161,7 +161,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "csQ" = (
@@ -250,11 +250,6 @@
 /turf/simulated/floor/plating,
 /area/fairpoint/maintenance/arrivals)
 "dVP" = (
-/obj/machinery/power/apc/super{
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
 /obj/machinery/vending/games,
 /turf/simulated/floor/tiled,
 /area/fairpoint/hallway/secondary/exit)
@@ -294,7 +289,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "eld" = (
@@ -573,7 +568,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint{
-	name = "landing floor";
+	name = "landing floor"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "gNn" = (
@@ -617,7 +612,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "hin" = (
@@ -708,7 +703,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "iJw" = (
@@ -756,13 +751,13 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "jdZ" = (
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "jfv" = (
@@ -791,7 +786,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "jlb" = (
@@ -1013,7 +1008,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "mcB" = (
@@ -1188,7 +1183,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "pcO" = (
@@ -1206,11 +1201,6 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/maintenance/arrivals)
 "prL" = (
-/obj/machinery/power/apc{
-	dir = 4;
-	name = "east bump";
-	pixel_x = 24
-	},
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (EAST)";
 	icon_state = "corner_white_full";
@@ -1373,7 +1363,7 @@
 /obj/machinery/light/small,
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "rHr" = (
@@ -1618,7 +1608,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "vlD" = (
@@ -1733,7 +1723,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "wKa" = (
@@ -1748,7 +1738,7 @@
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
+	name = "exterior tiles"
 	},
 /area/fairpoint/hallway/secondary/exit)
 "wQP" = (
