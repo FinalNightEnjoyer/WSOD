@@ -27,6 +27,10 @@
 	icon_state = "green"
 	sound_env = ALLEY
 
+/area/fairpoint/street/outskirts
+	name = "Downtown Outskirts"
+	icon_state = "green"
+
 // SUPPLY SHUTTLE
 /area/fairpoint/supply_shuttle_dock
 	name = "Supply Shuttle Dock"
@@ -48,6 +52,11 @@
 	icon_state = "bridge"
 	sound_env = MEDIUM_SOFTFLOOR
 
+/area/fairpoint/panicroom
+	name = "\improper City Hall Panic Room"
+	icon_state = "bridge"
+	req_access = list(access_bridge)
+
 //CAPTAIN'S QUARTERS.
 
 /area/fairpoint/crew_quarters/mayor
@@ -61,6 +70,11 @@
 
 /area/fairpoint/engineering/ce
 	name = "\improper Maintenance - Director' Office"
+	req_access = list(access_ce)
+	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
+
+/area/fairpoint/engineering/sysadmin
+	name = "\improper Maintenance | City Hall - System Administrator's Office"
 	req_access = list(access_ce)
 	holomap_color = HOLOMAP_AREACOLOR_ENGINEERING
 
@@ -199,7 +213,7 @@
 //Cryo
 
 /area/fairpoint/medical/cryo
-	name = "\improper Hospital Cryogenics"
+	name = "\improper Hospital Sleepers"
 	icon_state = "cryo"
 
 /area/fairpoint/medical/exam_room
@@ -257,10 +271,6 @@
 	name = "\improper Virology"
 	icon_state = "virology"
 	req_access = list(access_virology)
-
-/area/fairpoint/medical/virology/access
-	name = "\improper Virology Access"
-	req_access = list() // This is like the lobby, needs low access to allow passing through in a different direction.
 
 
 //RESEARCH. UNTOUCHED FOR NOW, PENDING DIRECTION FOR THEME
@@ -519,12 +529,12 @@
 	req_access = list(access_janitor)
 
 /area/fairpoint/hydroponics
-	name = "\improper Hydroponics"
+	name = "\improper Farm - Hydroponics Room"
 	icon_state = "hydro"
 	req_access = list(access_hydroponics)
 
 /area/fairpoint/hydroponics/garden
-	name = "\improper Garden"
+	name = "\improper Farm"
 	icon_state = "garden"
 	req_access = list()
 
@@ -566,7 +576,7 @@
 //MESSAGING SERVER ROOM
 
 /area/fairpoint/turret_protected/ai_server_room
-	name = "Messaging Server Room"
+	name = "Communications and Server Rooms"
 	icon_state = "ai_server"
 	sound_env = SMALL_ENCLOSED
 	req_access = list(access_tcomsat)
@@ -594,7 +604,7 @@
 	holomap_color = HOLOMAP_AREACOLOR_MAINTENANCE
 
 /area/fairpoint/maintenance/arrivals
-	name = "\improper Arrivals Maintenance"
+	name = "\improper Sewers"
 	icon_state = "maint_arrivals"
 
 /area/fairpoint/maintenance/bar
@@ -638,9 +648,8 @@
 /area/fairpoint/maintenance/surface
 	name = "\improper Surface Maintenance"
 	icon_state = "maint_security_starboard"
-	has_gravity = FALSE
-	turf_initializer = /decl/turf_initializer/maintenance/space
-	req_access = list(list(access_security, access_engine)) //whatever
+	turf_initializer = /decl/turf_initializer/maintenance
+	req_access = list(access_maint_tunnels)
 
 /area/fairpoint/maintenance/disposal
 	name = "Waste Disposal"
@@ -674,76 +683,55 @@
 		'sound/effects/wind/wind_3_1.ogg',
 	)
 
-/area/fairpoint/maintenance/sub/relay_station
-	name = "\improper Sublevel Maintenance - Relay Station"
-	icon_state = "blue2"
-	turf_initializer = null
-	req_access = list(access_engine)
-
-/area/fairpoint/maintenance/sub/fore
-	name = "\improper Sublevel Maintenance - Fore"
-	icon_state = "sub_maint_fore"
-
-/area/fairpoint/maintenance/sub/aft
-	name = "\improper Sublevel Maintenance - Aft"
-	icon_state = "sub_maint_aft"
-
-/area/fairpoint/maintenance/sub/port
-	name = "\improper Sublevel Maintenance - Port"
-	icon_state = "sub_maint_port"
-
-/area/fairpoint/maintenance/sub/starboard
-	name = "\improper Sublevel Maintenance - Starboard"
-	icon_state = "sub_maint_starboard"
-
-/area/fairpoint/maintenance/sub/central
-	name = "\improper Sublevel Maintenance - Central"
-	icon_state = "sub_maint_central"
-
-/area/fairpoint/maintenance/sub/command
-	name = "\improper Sublevel Maintenance - Command"
-	icon_state = "sub_maint_command"
-	turf_initializer = null
-
 /////////////
 //ELEVATORS//
 /////////////
 
 /area/turbolift/security_station
-	name = "Station - By Security"
-	lift_announce_str = "Arriving at the station level, by the Security department."
+	name = "Sewer Access - Maintenance"
+	lift_announce_str = "Exiting Sewers"
 
 /area/turbolift/security_maintenance
-	name = "Maintenance - Below Security"
-	lift_announce_str = "Arriving at the maintenance level, below the Security department."
-	base_turf = /turf/simulated/floor/plating
+	name = "Sewer Access - Maintenance"
+	lift_announce_str = "Arriving at the sewer access level"
+	base_turf = /turf/simulated/floor/reinforced/elevator_shaft
 
 /area/turbolift/research_station
-	name = "Station - By Research"
-	lift_announce_str = "Arriving at the station level, by the R&D department."
+	name = "Metro Station - Surface"
+	lift_announce_str = "Arriving at the Fairpoint Downtown Metro Station, surface level."
 
 /area/turbolift/research_maintenance
-	name = "Maintenance - Below Research"
-	lift_announce_str = "Arriving at the maintenance level, below the R&D department."
-	base_turf = /turf/simulated/floor/plating
+	name = "Metro Station - Underground"
+	lift_announce_str = "Arriving at the Fairpoint Downtown Metro Station, underground level."
+	base_turf = /turf/simulated/floor/reinforced/elevator_shaft
 
 /area/turbolift/engineering_station
-	name = "Station - By Engineering"
-	lift_announce_str = "Arriving at the station level, by the Engineering department."
+	name = "Sewer Access - Mining Surface"
+	lift_announce_str = "Ascending from the sewers, mining access."
 
 /area/turbolift/engineering_maintenance
-	name = "Maintenance - Below Engineering"
-	lift_announce_str = "Arriving at the maintenance level, below the Engineering department."
-	base_turf = /turf/simulated/floor/plating
+	name = "Sewer Access- Mining Sewers"
+	lift_announce_str = "Descending to the Sewers, mining access"
+	base_turf = /turf/simulated/floor/reinforced/elevator_shaft
 
-/area/turbolift/cargo_station
-	name = "Station - By Cargo"
-	lift_announce_str = "Arriving at the station level, by the Cargo department."
+/area/turbolift/pd_ground
+	name = "Police Station - Ground Floor"
+	lift_announce_str = "Now arriving at: Station Main, Floor One."
+	base_turf = /turf/simulated/floor/reinforced/elevator_shaft
 
-/area/turbolift/cargo_maintenance
-	name = "Maintenance - Below Cargo"
-	lift_announce_str = "Arriving at the maintenance level, below the Cargo department."
-	base_turf = /turf/simulated/floor/plating
+/area/turbolift/pd_top
+	name = "Police Station - Top Floor"
+	lift_announce_str = "Now arriving at: Prison Wing and Senior Staff Wing, Floor Two."
+
+/area/turbolift/hospital_surface
+	name = "Hospital - Ground Floor"
+	lift_announce_str = "Now arriving at: Hospital Main, Ground Floor."
+
+/area/turbolift/hospital_sewers
+	name = "Hospital - Morgue"
+	lift_announce_str = "Now arriving at: Morgue, Recovery and Cold Storage, Basement."
+	base_turf = /turf/simulated/floor/reinforced/elevator_shaft
+
 
 /////////////////
 //ELEVATORS END//
