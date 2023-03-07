@@ -63,7 +63,7 @@
 	guestbanned = 1
 	must_fill = 1
 	not_random_selectable = 1
-	alt_titles = list("Police Director", "Police Superintendent", "Police Chief")
+	alt_titles = list("Police Director", "Police Superintendent", "Police Chief", "Police Captain")
 	outfit_type = /decl/hierarchy/outfit/job/security/hos
 	min_skill = list(
 		SKILL_LITERACY  = SKILL_ADEPT,
@@ -92,7 +92,7 @@
 		H.implant_loyalty(H)
 
 /datum/job/warden
-	title = "Police Sergeant"
+	title = "Watch Shift Supervisor"
 	department_types = list(/decl/department/security)
 	total_positions = 1
 	spawn_positions = 1
@@ -119,7 +119,7 @@
 		access_external_airlocks
 	)
 	minimal_player_age = 7
-	alt_titles = list("Correctional Officer", "Watch Shift Supervisor", "Police Desk Officer", "Cell Warden")
+	alt_titles = list("Correctional Officer", "Police Lieutenant", "Police Desk Supervisor", "Cell Warden")
 	outfit_type = /decl/hierarchy/outfit/job/security/warden
 	guestbanned = 1
 	min_skill = list(
@@ -141,14 +141,14 @@
 	)
 
 /datum/job/detective
-	title = "Police Detective"
+	title = "Junior Police Detective"
 	department_types = list(/decl/department/security)
 
 	total_positions = 2
 	spawn_positions = 2
 	supervisors = "the chief of police"
 	selection_color = "#601c1c"
-	alt_titles = list("Investigator",
+	alt_titles = list("Junior Investigator",
 		"Forensic Technician" = /decl/hierarchy/outfit/job/security/detective/forensic
 	)
 	economic_power = 5
@@ -188,14 +188,60 @@
 		/datum/computer_file/program/camera_monitor
 	)
 
+/datum/job/seniorofficer
+	title = "Senior Police Officer"
+	department_types = list(/decl/department/security)
+
+	total_positions = 7
+	spawn_positions = 2
+	supervisors = "the chief of police"
+	selection_color = "#601c1c"
+	alt_titles = list("Senior Detective", "Police Desk Officer", "Senior Field Training Officer", "Police Sergeant", "Police Detective" = /decl/hierarchy/outfit/job/security/detective , "Investigator" = /decl/hierarchy/outfit/job/security/detective , "Forensics Specialist" = /decl/hierarchy/outfit/job/security/detective/forensic)
+	economic_power = 5
+	access = list(
+		access_security,
+		access_sec_doors,
+		access_forensics_lockers,
+		access_morgue,
+		access_maint_tunnels
+	)
+	minimal_access = list(
+		access_security,
+		access_sec_doors,
+		access_forensics_lockers,
+		access_morgue,
+		access_maint_tunnels
+	)
+	minimal_player_age = 7
+	outfit_type = /decl/hierarchy/outfit/job/security/officer
+	guestbanned = 1
+	min_skill = list(
+		SKILL_LITERACY  = SKILL_ADEPT,
+		SKILL_COMPUTER  = SKILL_BASIC,
+		SKILL_EVA       = SKILL_BASIC,
+		SKILL_COMBAT    = SKILL_BASIC,
+		SKILL_WEAPONS   = SKILL_BASIC,
+		SKILL_FORENSICS = SKILL_BASIC
+	)
+	max_skill = list(
+		SKILL_COMBAT    = SKILL_MAX,
+		SKILL_WEAPONS   = SKILL_MAX,
+		SKILL_FORENSICS = SKILL_MAX
+	)
+	skill_points = 20
+	software_on_spawn = list(
+		/datum/computer_file/program/digitalwarrant,
+		/datum/computer_file/program/camera_monitor
+	)
+
 /datum/job/officer
-	title = "Police Officer"
+	title = "Police Cadet"
 	department_types = list(/decl/department/security)
 	total_positions = 4
 	spawn_positions = 4
 	supervisors = "your PD superiors"
 	selection_color = "#601c1c"
-	alt_titles = list("Police Cadet", "Field Training Officer", "Traffic Officer")
+	alt_titles = list("Junior Police Officer", "Police Officer", "Field Training Officer", "Traffic Officer")
 	economic_power = 4
 	access = list(
 		access_security,

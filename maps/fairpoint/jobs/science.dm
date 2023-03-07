@@ -1,5 +1,5 @@
 /datum/job/rd
-	title = "Chief Science Officer"
+	title = "Research Director"
 	head_position = 1
 	department_types = list(
 		/decl/department/science,
@@ -7,7 +7,7 @@
 	)
 	total_positions = 1
 	spawn_positions = 1
-	supervisors = "the captain"
+	supervisors = "the mayor"
 	selection_color = "#ad6bad"
 	req_admin_notify = 1
 	economic_power = 15
@@ -79,7 +79,7 @@
 	department_types = list(/decl/department/science)
 	total_positions = 6
 	spawn_positions = 4
-	supervisors = "the Chief Science Officer"
+	supervisors = "the director"
 	selection_color = "#633d63"
 	economic_power = 7
 	access = list(
@@ -100,11 +100,11 @@
 		access_hydroponics
 	)
 	alt_titles = list(
-		"Xenobiologist",
-		"Xenobotanist",
-		"Xenoarcheologist",
-		"Anomalist",
-		"Phoron Researcher"
+		"Biologist",
+		"Genebotanist",
+		"Archeologist",
+		"Researcher",
+		"Museum Curator"
 	)
 	minimal_player_age = 7
 	outfit_type = /decl/hierarchy/outfit/job/science/scientist
@@ -127,7 +127,7 @@
 	department_types = list(/decl/department/science)
 	total_positions = 2
 	spawn_positions = 2
-	supervisors = "the Chief Science Officer"
+	supervisors = "the director"
 	selection_color = "#633d63"
 	economic_power = 5
 	access = list(
