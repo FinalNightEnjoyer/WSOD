@@ -101,7 +101,6 @@
 /turf/exterior/concrete/pavement/pave_tiling,
 /area/fairpoint/street)
 "agT" = (
-,
 /turf/exterior/concrete,
 /area/fairpoint/street/north)
 "ahm" = (
@@ -110,7 +109,6 @@
 /turf/simulated/floor/carpet,
 /area/fairpoint/crew_quarters/bar)
 "ahr" = (
-,
 /obj/structure/bed/chair/armchair,
 /turf/simulated/floor/wood/walnut,
 /area/fairpoint/street/north)
