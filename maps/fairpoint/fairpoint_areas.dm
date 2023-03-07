@@ -675,31 +675,31 @@
 //ELEVATORS//
 /////////////
 
-/area/turbolift/security_station
+/area/turbolift/sewer_exit
 	name = "Sewer Access - Maintenance"
 	lift_announce_str = "Exiting Sewers"
 
-/area/turbolift/security_maintenance
+/area/turbolift/sewer_entrance
 	name = "Sewer Access - Maintenance"
 	lift_announce_str = "Arriving at the sewer access level"
 	base_turf = /turf/simulated/floor/reinforced/elevator_shaft
 
-/area/turbolift/research_station
-	name = "Metro Station - Surface"
-	lift_announce_str = "Arriving at the Fairpoint Downtown Metro Station, surface level."
-
-/area/turbolift/research_maintenance
-	name = "Metro Station - Underground"
-	lift_announce_str = "Arriving at the Fairpoint Downtown Metro Station, underground level."
-	base_turf = /turf/simulated/floor/reinforced/elevator_shaft
-
-/area/turbolift/engineering_station
+/area/turbolift/sewer_exit/mining
 	name = "Sewer Access - Mining Surface"
 	lift_announce_str = "Ascending from the sewers, mining access."
 
-/area/turbolift/engineering_maintenance
+/area/turbolift/sewer_entrance/mining
 	name = "Sewer Access- Mining Sewers"
 	lift_announce_str = "Descending to the Sewers, mining access"
+	base_turf = /turf/simulated/floor/reinforced/elevator_shaft
+
+/area/turbolift/metro_station
+	name = "Metro Station - Surface"
+	lift_announce_str = "Arriving at the Fairpoint Downtown Metro Station, surface level."
+
+/area/turbolift/metro_maintenance
+	name = "Metro Station - Underground"
+	lift_announce_str = "Arriving at the Fairpoint Downtown Metro Station, underground level."
 	base_turf = /turf/simulated/floor/reinforced/elevator_shaft
 
 /area/turbolift/pd_ground

@@ -2845,7 +2845,7 @@
 /area/fairpoint/shipping/office)
 "dqn" = (
 /turf/simulated/open,
-/area/turbolift/security_station)
+/area/turbolift/sewer_entrance/mining)
 "drO" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 9
@@ -7767,7 +7767,7 @@
 /area/fairpoint/street/east)
 "jEk" = (
 /turf/simulated/open,
-/area/turbolift/engineering_station)
+/area/turbolift/sewer_entrance)
 "jEI" = (
 ,
 /obj/machinery/light/small{
@@ -12993,6 +12993,9 @@
 	},
 /turf/simulated/floor/tiled/dark/monotile,
 /area/fairpoint/street)
+"qsp" = (
+/turf/exterior/water,
+/area/turbolift/sewer_exit)
 "qss" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
@@ -14767,7 +14770,7 @@
 /area/fairpoint/crew_quarters/bar)
 "sMg" = (
 /turf/simulated/open,
-/area/turbolift/research_station)
+/area/turbolift/metro_station)
 "sMn" = (
 /turf/simulated/wall/concrete,
 /area/fairpoint/police/lobby)
@@ -21448,7 +21451,7 @@ eLm
 eLm
 eLm
 eLm
-eLm
+qsp
 eLm
 eLm
 ftJ
@@ -53746,11 +53749,11 @@ axt
 jbI
 wet
 sKV
-jEk
-jEk
-jEk
-jEk
-jEk
+dqn
+dqn
+dqn
+dqn
+dqn
 tPw
 xuP
 xuP
@@ -53948,11 +53951,11 @@ tkZ
 jbI
 wet
 sKV
-jEk
-jEk
-jEk
-jEk
-jEk
+dqn
+dqn
+dqn
+dqn
+dqn
 hfV
 xuP
 xuP
@@ -54150,11 +54153,11 @@ hdX
 bnM
 wet
 sKV
-jEk
-jEk
-jEk
-jEk
-jEk
+dqn
+dqn
+dqn
+dqn
+dqn
 hfV
 xuP
 xuP
@@ -54352,11 +54355,11 @@ tkZ
 bnM
 wet
 sKV
-jEk
-jEk
-jEk
-jEk
-jEk
+dqn
+dqn
+dqn
+dqn
+dqn
 hfV
 xuP
 xuP
@@ -54554,11 +54557,11 @@ sIC
 jbI
 wet
 sKV
-jEk
-jEk
-jEk
-jEk
-jEk
+dqn
+dqn
+dqn
+dqn
+dqn
 sKV
 xuP
 xuP
@@ -56294,11 +56297,11 @@ eBp
 azy
 ghz
 fNf
-dqn
-dqn
-dqn
-dqn
-dqn
+jEk
+jEk
+jEk
+jEk
+jEk
 fNf
 ghz
 ghz
@@ -56496,11 +56499,11 @@ eBp
 azy
 ghz
 fNf
-dqn
-dqn
-dqn
-dqn
-dqn
+jEk
+jEk
+jEk
+jEk
+jEk
 fNf
 ghz
 ghz
@@ -56698,11 +56701,11 @@ eBp
 azy
 ghz
 fNf
-dqn
-dqn
-dqn
-dqn
-dqn
+jEk
+jEk
+jEk
+jEk
+jEk
 fNf
 ghz
 ghz
@@ -56900,11 +56903,11 @@ eBp
 azy
 ghz
 hdD
-dqn
-dqn
-dqn
-dqn
-dqn
+jEk
+jEk
+jEk
+jEk
+jEk
 hdD
 omr
 omr
@@ -57102,11 +57105,11 @@ eBp
 azy
 ghz
 hdD
-dqn
-dqn
-dqn
-dqn
-dqn
+jEk
+jEk
+jEk
+jEk
+jEk
 hdD
 nMH
 fyo

@@ -41,8 +41,7 @@
 
 	#include "fairpoint-1.dmm"
 	#include "fairpoint-2.dmm"
-	#include "fairpoint-admin.dmm"
-	#include "fairpoint-transit.dmm"
+	#include "fairpoint-3.dmm"
 
 	#define USING_MAP_DATUM /datum/map/fairpoint
 

@@ -198,7 +198,7 @@
 "cNA" = (
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/reinforced/elevator_shaft,
-/area/turbolift/engineering_maintenance)
+/area/turbolift/sewer_exit)
 "cPZ" = (
 /obj/effect/catwalk_plated,
 /obj/structure/catwalk,
@@ -241,7 +241,7 @@
 /area/fairpoint/maintenance/arrivals)
 "dqn" = (
 /turf/simulated/floor/reinforced/elevator_shaft,
-/area/turbolift/engineering_maintenance)
+/area/turbolift/sewer_exit)
 "duI" = (
 /obj/machinery/door/blast/regular,
 /turf/exterior/water,
@@ -377,7 +377,7 @@
 "fkl" = (
 ,
 /turf/simulated/floor/reinforced/elevator_shaft,
-/area/turbolift/engineering_maintenance)
+/area/turbolift/sewer_exit)
 "fpV" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 8
@@ -410,11 +410,11 @@
 /turf/simulated/floor/plating,
 /area/fairpoint/hallway/secondary/exit)
 "ftR" = (
-/obj/turbolift_map_holder/fairpoint{
+/obj/turbolift_map_holder/fairpoint/metro{
 	dir = 4
 	},
 /turf/simulated/floor/reinforced/elevator_shaft,
-/area/turbolift/research_maintenance)
+/area/turbolift/metro_maintenance)
 "fwU" = (
 /obj/structure/window/reinforced{
 	icon_state = "rwindow";
@@ -857,7 +857,7 @@
 "jEk" = (
 /obj/turbolift_map_holder/fairpoint/cargo,
 /turf/exterior/concrete/pavement/empty,
-/area/turbolift/engineering_maintenance)
+/area/turbolift/sewer_exit/mining)
 "jJA" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/maintenance/hospital)
@@ -1196,9 +1196,7 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/hallway/secondary/exit)
 "otv" = (
-/obj/turbolift_map_holder/fairpoint{
-	dir = 1
-	},
+/obj/turbolift_map_holder/fairpoint/hospital,
 /turf/space,
 /area/turbolift/hospital_sewers)
 "oFU" = (
@@ -1388,7 +1386,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/reinforced/elevator_shaft,
-/area/turbolift/research_maintenance)
+/area/turbolift/metro_maintenance)
 "roI" = (
 /turf/simulated/wall/prepainted{
 	color = "FFFEFD"
@@ -1440,7 +1438,7 @@
 /area/fairpoint/medical/medbay)
 "rXS" = (
 /turf/simulated/floor/reinforced/elevator_shaft,
-/area/turbolift/research_maintenance)
+/area/turbolift/metro_maintenance)
 "sdR" = (
 /obj/effect/floor_decal/floordetail/tiled,
 /turf/simulated/floor/tiled/techmaint,
@@ -1508,11 +1506,11 @@
 /area/fairpoint/medical/medbay)
 "sXZ" = (
 ,
-/obj/turbolift_map_holder/fairpoint{
+/obj/turbolift_map_holder/fairpoint/sewer1{
 	dir = 4
 	},
 /turf/simulated/floor/reinforced/elevator_shaft,
-/area/turbolift/engineering_maintenance)
+/area/turbolift/sewer_exit)
 "tfK" = (
 /obj/machinery/newscaster{
 	pixel_y = 32
@@ -1720,7 +1718,7 @@
 /area/fairpoint/maintenance/arrivals)
 "wet" = (
 /turf/exterior/concrete/pavement/empty,
-/area/turbolift/engineering_maintenance)
+/area/turbolift/sewer_exit/mining)
 "whQ" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
