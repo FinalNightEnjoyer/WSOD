@@ -429,7 +429,7 @@
 "awQ" = (
 /obj/machinery/conveyor{
 	dir = 1;
-	id = "anolaser"
+	id_tag = "anolaser"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/research/xenobiology)
@@ -474,7 +474,6 @@
 /turf/simulated/wall/concrete,
 /area/fairpoint/research/xenobiology/xenoflora_storage)
 "azy" = (
-,
 /turf/simulated/wall/concrete,
 /area/fairpoint/street/north)
 "aAo" = (
@@ -1911,7 +1910,7 @@
 "cdV" = (
 /obj/machinery/conveyor{
 	dir = 1;
-	id = "anolaser"
+	id_tag = "anolaser"
 	},
 /obj/machinery/door/window/westleft{
 	dir = 2;
@@ -4886,7 +4885,7 @@
 /area/fairpoint/police)
 "gcw" = (
 /obj/machinery/conveyor_switch{
-	id = "anolaser"
+	id_tag = "anolaser"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/research/xenobiology)
