@@ -252,7 +252,7 @@
 /area/fairpoint/maintenance/arrivals)
 "dVP" = (
 /obj/machinery/power/apc{
-	cell_type = /obj/item/weapon/cell/super;
+	cell_type = /obj/item/cell/super;
 	dir = 8;
 	name = "west bump";
 	pixel_x = -24
