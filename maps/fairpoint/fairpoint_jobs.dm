@@ -28,8 +28,6 @@
 		/datum/job/detective,
 		/datum/job/warden,
 		/datum/job/officer,
-		/datum/job/robot,
-		/datum/job/computer
 	)
 
 
