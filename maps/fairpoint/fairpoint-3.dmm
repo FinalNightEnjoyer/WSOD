@@ -2734,11 +2734,7 @@
 	icon_state = "camera"
 	},
 /obj/machinery/papershredder,
-/obj/machinery/light/small{
-	brightness_color = "#DA0205";
-	brightness_power = 1;
-	brightness_range = 5
-	},
+/obj/machinery/light/small/emergency,
 /turf/simulated/floor/lino,
 /area/fairpoint/police/detectives_office)
 "mUM" = (

@@ -485,7 +485,6 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cryo)
 "aAB" = (
-,
 /obj/machinery/vending/snix,
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/street/north)
