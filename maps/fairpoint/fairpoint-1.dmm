@@ -14,7 +14,6 @@
 	},
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -83,7 +82,6 @@
 	},
 /obj/structure/bed/chair/office/light,
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = -4
@@ -149,12 +147,10 @@
 "csC" = (
 /obj/effect/floor_decal/corner/blue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 8;
-	icon_state = "warning_dust"
+	dir = 8
 	},
 /obj/structure/railing{
 	dir = 8
@@ -272,7 +268,6 @@
 "eaI" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -280,12 +275,10 @@
 "eaL" = (
 /obj/effect/floor_decal/corner/blue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 8;
-	icon_state = "warning_dust"
+	dir = 8
 	},
 /turf/simulated/floor/tiled{
 	color = "";
@@ -364,7 +357,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -374,7 +366,6 @@
 	dir = 10
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 10;
 	c_tag = "MED - Virology Airlock"
 	},
@@ -395,13 +386,6 @@
 	},
 /turf/simulated/floor/reinforced/elevator_shaft,
 /area/turbolift/metro_maintenance)
-"fwU" = (
-/obj/structure/window/reinforced{
-	icon_state = "rwindow";
-	dir = 1
-	},
-/turf/simulated/floor/tiled/freezer,
-/area/fairpoint/medical/morgue)
 "fyl" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -420,12 +404,10 @@
 "fLT" = (
 /obj/effect/floor_decal/corner/blue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/machinery/light/small{
-	dir = 4;
-	pixel_y = 0
+	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/hallway/secondary/exit)
@@ -440,7 +422,6 @@
 "fQM" = (
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (WEST)";
-	icon_state = "corner_white_full";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -455,7 +436,6 @@
 "fSA" = (
 /obj/structure/morgue,
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/freezer,
@@ -463,7 +443,6 @@
 "fTb" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1;
-	icon_state = "warning_dust";
 	tag = "icon-warning_dust (NORTH)"
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -537,7 +516,6 @@
 "gqN" = (
 /obj/structure/morgue,
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /obj/structure/window/reinforced{
@@ -584,7 +562,6 @@
 "gYo" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -596,15 +573,12 @@
 "hfq" = (
 /obj/effect/floor_decal/corner/blue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 9
 	},
 /obj/structure/railing{
@@ -644,14 +618,12 @@
 /area/fairpoint/hallway/secondary/exit)
 "hNj" = (
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/morgue)
 "hQn" = (
 /obj/structure/disposalpipe/junction{
-	icon_state = "pipe-j1";
 	dir = 1
 	},
 /turf/simulated/wall/iron,
@@ -709,7 +681,6 @@
 "iJw" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (SOUTHEAST)";
-	icon_state = "bordercolor";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -717,7 +688,6 @@
 "iOt" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/random/vendor,
@@ -735,16 +705,13 @@
 "jcy" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 8
 	},
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /obj/structure/railing{
 	dir = 8
@@ -773,12 +740,10 @@
 /obj/effect/floor_decal/corner/blue/border,
 /obj/effect/floor_decal/corner/blue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/lightgrey/border,
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 10
 	},
 /obj/structure/railing{
@@ -848,7 +813,6 @@
 /area/fairpoint/medical/morgue)
 "kds" = (
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 8
 	},
 /obj/structure/table/reinforced,
@@ -935,7 +899,6 @@
 /area/fairpoint/maintenance/arrivals)
 "llw" = (
 /obj/structure/disposalpipe/junction/yjunction{
-	icon_state = "pipe-y";
 	dir = 1
 	},
 /turf/exterior/water/chlorine,
@@ -987,7 +950,6 @@
 	},
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -995,11 +957,9 @@
 "lXU" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 8
 	},
 /obj/machinery/light/small/emergency,
@@ -1150,7 +1110,6 @@
 "opm" = (
 /obj/effect/floor_decal/corner/blue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/random/vendor,
@@ -1172,8 +1131,7 @@
 /area/fairpoint/maintenance/arrivals)
 "oOW" = (
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/hallway/secondary/exit)
@@ -1195,15 +1153,13 @@
 "pmN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/maintenance/arrivals)
 "prL" = (
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (EAST)";
-	icon_state = "corner_white_full";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -1229,7 +1185,6 @@
 /area/fairpoint/maintenance/arrivals)
 "pDc" = (
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 4
 	},
 /turf/simulated/wall/iron,
@@ -1238,7 +1193,6 @@
 /obj/structure/closet/secure_closet/personal/patient,
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (WEST)";
-	icon_state = "corner_white_full";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -1267,8 +1221,7 @@
 /area/fairpoint/medical/ward)
 "qvF" = (
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/maintenance/arrivals)
@@ -1291,8 +1244,7 @@
 	dir = 9
 	},
 /obj/machinery/light_switch{
-	pixel_x = -23;
-	pixel_y = 0
+	pixel_x = -23
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
@@ -1333,7 +1285,6 @@
 "rgT" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/reinforced/elevator_shaft,
@@ -1354,7 +1305,6 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1;
-	icon_state = "warning_dust";
 	tag = "icon-warning_dust (NORTH)"
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -1381,7 +1331,6 @@
 "rOX" = (
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (EAST)";
-	icon_state = "corner_white_full";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -1452,9 +1401,7 @@
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
 "sXZ" = (
-/obj/turbolift_map_holder/fairpoint/sewer1{
-	dir = 4
-	},
+/obj/turbolift_map_holder/fairpoint/sewer1,
 /turf/simulated/floor/reinforced/elevator_shaft,
 /area/turbolift/sewer_exit)
 "tfK" = (
@@ -1469,8 +1416,7 @@
 "tiD" = (
 /obj/machinery/vending/wallmed1{
 	name = "NanoMed Wall";
-	pixel_x = 25;
-	pixel_y = 0
+	pixel_x = 25
 	},
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
@@ -1513,8 +1459,7 @@
 /area/fairpoint/medical/morgue)
 "tJk" = (
 /obj/machinery/light/small{
-	dir = 4;
-	pixel_y = 0
+	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/hallway/secondary/exit)
@@ -1564,7 +1509,6 @@
 "uMM" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -1596,11 +1540,9 @@
 "vhI" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 8
 	},
 /obj/structure/railing{
@@ -1646,8 +1588,7 @@
 /area/fairpoint/hallway/secondary/exit)
 "wck" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 8;
-	icon_state = "warning_dust"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/hallway/secondary/exit)
@@ -1680,7 +1621,6 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (NORTH)";
-	icon_state = "corner_white_full";
 	dir = 1
 	},
 /obj/structure/closet/secure_closet/personal/patient,
@@ -1706,7 +1646,6 @@
 "wIi" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -1714,11 +1653,9 @@
 "wIE" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 8
 	},
 /turf/simulated/floor/tiled{
@@ -1749,7 +1686,6 @@
 "wXi" = (
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -1769,7 +1705,6 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (NORTH)";
-	icon_state = "corner_white_full";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -1784,7 +1719,6 @@
 "xJe" = (
 /obj/effect/floor_decal/corner/blue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/steel_grid,
@@ -1834,7 +1768,6 @@
 	dir = 5
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
@@ -17707,7 +17640,7 @@ giX
 guU
 giX
 aTF
-fwU
+ciY
 giX
 giX
 giX
@@ -18111,7 +18044,7 @@ giX
 guU
 giX
 aTF
-fwU
+ciY
 giX
 giX
 giX
@@ -18515,7 +18448,7 @@ giX
 guU
 giX
 aTF
-fwU
+ciY
 giX
 giX
 giX
@@ -18919,7 +18852,7 @@ giX
 guU
 giX
 aTF
-fwU
+ciY
 giX
 guU
 guU

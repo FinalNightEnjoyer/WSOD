@@ -32,7 +32,6 @@
 "acb" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -44,7 +43,6 @@
 "acN" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/structure/stairs{
@@ -95,7 +93,6 @@
 	},
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -120,8 +117,7 @@
 /area/fairpoint/shipping/office)
 "ahK" = (
 /obj/machinery/light/small{
-	dir = 4;
-	pixel_y = 0
+	dir = 4
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -132,13 +128,11 @@
 "ahY" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/blue/border,
 /obj/structure/hygiene/sink{
 	dir = 8;
-	icon_state = "sink";
 	pixel_x = -12
 	},
 /turf/simulated/floor/tiled/white,
@@ -253,7 +247,6 @@
 	},
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/red{
@@ -298,7 +291,6 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/exterior/dirt,
@@ -314,7 +306,6 @@
 	pixel_y = 32
 	},
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = 32
@@ -329,7 +320,6 @@
 "asI" = (
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/red/border,
@@ -372,7 +362,6 @@
 /area/fairpoint/library)
 "atl" = (
 /obj/machinery/light{
-	icon_state = "tube_map";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -408,7 +397,6 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/blue/border,
@@ -473,13 +461,9 @@
 /obj/structure/sign/warning/caution,
 /turf/simulated/wall/concrete,
 /area/fairpoint/research/xenobiology/xenoflora_storage)
-"azy" = (
-/turf/simulated/wall/concrete,
-/area/fairpoint/street/north)
 "aAo" = (
 /obj/machinery/bodyscanner{
 	tag = "icon-body_scanner_0 (EAST)";
-	icon_state = "body_scanner_0";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -512,7 +496,6 @@
 "aCb" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/red{
@@ -546,7 +529,6 @@
 /area/fairpoint/library)
 "aDE" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -683,8 +665,7 @@
 	},
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Main Hallway West";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -755,7 +736,6 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/space,
@@ -768,11 +748,9 @@
 "aRD" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 6
 	},
 /obj/structure/table/reinforced,
@@ -793,8 +771,7 @@
 	dir = 4
 	},
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
 /area/fairpoint/street/north)
@@ -805,7 +782,6 @@
 /area/fairpoint/maintenance/police)
 "aSg" = (
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = -4
@@ -821,7 +797,6 @@
 	},
 /obj/structure/hygiene/sink{
 	dir = 8;
-	icon_state = "sink";
 	pixel_x = -12
 	},
 /obj/structure/hygiene/faucet{
@@ -867,7 +842,6 @@
 /area/fairpoint/medical/exam_room)
 "aTP" = (
 /obj/machinery/camera/network/engineering{
-	icon_state = "camera";
 	dir = 1;
 	c_tag = "ENG - Technical Storage"
 	},
@@ -908,7 +882,7 @@
 /area/fairpoint/street/north)
 "aVY" = (
 /obj/machinery/door/airlock/medical{
-	req_access = newlist();
+	req_access = newlist()
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
@@ -963,7 +937,6 @@
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -988,12 +961,10 @@
 "aZP" = (
 /obj/structure/sign/directions/evac{
 	dir = 8;
-	icon_state = "direction_evac";
 	pixel_y = 25
 	},
 /obj/structure/sign/directions/medical{
 	dir = 8;
-	icon_state = "direction_med";
 	pixel_y = 33
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -1011,8 +982,7 @@
 /area/fairpoint/street/north)
 "bbk" = (
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /obj/structure/filing_cabinet/records,
 /turf/simulated/floor/wood/ebony,
@@ -1031,7 +1001,6 @@
 	},
 /obj/structure/bed/chair/office/light,
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = -4
@@ -1060,7 +1029,6 @@
 	dir = 10
 	},
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = -4
@@ -1160,8 +1128,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 4;
-	icon_state = "warning_dust"
+	dir = 4
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/east)
@@ -1225,12 +1192,10 @@
 /area/fairpoint/chapel/office)
 "bmQ" = (
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube_map"
+	dir = 8
 	},
 /obj/structure/cable,
 /obj/structure/hand_cart{
-	icon_state = "cart";
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
@@ -1241,7 +1206,6 @@
 /area/fairpoint/police/vacantoffice)
 "bnu" = (
 /obj/machinery/camera/network/engineering{
-	icon_state = "camera";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -1310,8 +1274,7 @@
 	},
 /obj/structure/window/basic,
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/beach/water,
 /area/fairpoint/law)
@@ -1332,8 +1295,7 @@
 	dir = 8
 	},
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -1357,7 +1319,6 @@
 "bzA" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/structure/hygiene/toilet,
@@ -1366,7 +1327,6 @@
 "bzK" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/structure/bed/chair/office/light{
@@ -1403,8 +1363,7 @@
 /obj/structure/bed/chair/comfy/beige,
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/maintenance/surface)
@@ -1422,7 +1381,6 @@
 /obj/structure/holostool,
 /obj/effect/floor_decal/chapel{
 	dir = 4;
-	icon_state = "chapel";
 	tag = "icon-chapel (EAST)"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -1482,18 +1440,15 @@
 "bFu" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/structure/hygiene/toilet{
-	icon_state = "toilet00";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/hallway/secondary/exit)
 "bFv" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 1
 	},
 /turf/exterior/water,
@@ -1554,7 +1509,6 @@
 "bKQ" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	tag = "icon-borderfloor_white (NORTH)";
-	icon_state = "borderfloor_white";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/freezer,
@@ -1610,7 +1564,6 @@
 /area/fairpoint/street)
 "bNX" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /obj/structure/railing/mapped{
@@ -1628,7 +1581,6 @@
 	dir = 10
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/white,
@@ -1638,8 +1590,7 @@
 	dir = 9
 	},
 /obj/machinery/light_switch{
-	pixel_x = -23;
-	pixel_y = 0
+	pixel_x = -23
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/crew_quarters/medbreak)
@@ -1659,7 +1610,6 @@
 /area/fairpoint/street)
 "bQM" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /obj/machinery/light/street,
@@ -1667,7 +1617,6 @@
 /area/fairpoint/hydroponics/garden)
 "bQQ" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/machinery/door/blast/regular,
@@ -1697,7 +1646,6 @@
 "bTr" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete/pavement/brick_paving,
@@ -1758,7 +1706,6 @@
 "bVC" = (
 /obj/structure/bed/chair/wheelchair{
 	tag = "icon-wheelchair (WEST)";
-	icon_state = "wheelchair";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -1825,7 +1772,6 @@
 	},
 /obj/machinery/flasher{
 	id = "Cell 4";
-	pixel_x = 0;
 	pixel_y = -32
 	},
 /obj/structure/bed,
@@ -1890,7 +1836,6 @@
 /area/fairpoint/cityhall/meeting_room)
 "cdC" = (
 /obj/machinery/door/blast/shutters{
-	dir = 1;
 	id = "cmoprivacyshutters";
 	name = "CMO Privacy Shutters"
 	},
@@ -1936,7 +1881,6 @@
 	},
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red/border,
@@ -2057,7 +2001,6 @@
 /area/fairpoint/hydroponics/garden)
 "cqA" = (
 /obj/machinery/light{
-	icon_state = "tube_map";
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
@@ -2077,7 +2020,6 @@
 "csg" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1;
-	icon_state = "warning_dust";
 	tag = "icon-warning_dust (NORTH)"
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -2147,8 +2089,7 @@
 "cyg" = (
 ,
 /obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1;
-	icon_state = "spline_fancy"
+	dir = 1
 	},
 /obj/effect/floor_decal/carpet/red{
 	dir = 1
@@ -2163,7 +2104,6 @@
 /area/fairpoint/street/north)
 "cyY" = (
 /obj/effect/floor_decal/spline/fancy{
-	icon_state = "spline_fancy";
 	dir = 6
 	},
 /obj/structure/table/woodentable,
@@ -2192,7 +2132,6 @@
 /area/fairpoint/law)
 "cCG" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /turf/exterior/concrete,
@@ -2223,7 +2162,6 @@
 /area/fairpoint/street/north)
 "cDT" = (
 /obj/effect/floor_decal/corner/yellow{
-	icon_state = "corner_white";
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
@@ -2231,8 +2169,7 @@
 "cES" = (
 ,
 /obj/effect/floor_decal/spline/fancy/wood{
-	dir = 1;
-	icon_state = "spline_fancy"
+	dir = 1
 	},
 /obj/effect/floor_decal/carpet/red{
 	dir = 1
@@ -2247,8 +2184,7 @@
 /area/fairpoint/street/north)
 "cEU" = (
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /obj/machinery/vending/cola,
 /turf/simulated/floor/wood/ebony,
@@ -2412,8 +2348,7 @@
 	icon_state = "plant-10"
 	},
 /obj/machinery/light/small{
-	dir = 4;
-	pixel_y = 0
+	dir = 4
 	},
 /turf/simulated/floor/wood/mahogany,
 /area/fairpoint/law)
@@ -2487,23 +2422,19 @@
 "cTD" = (
 /obj/structure/sign/directions/evac{
 	dir = 8;
-	icon_state = "direction_evac";
 	pixel_y = 25
 	},
 /obj/structure/sign/directions/medical{
 	dir = 4;
-	icon_state = "direction_med";
 	pixel_y = 33
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/hallway/secondary/exit)
 "cUt" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	icon_state = "11-scrubbers";
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	icon_state = "11-supply";
 	dir = 9
 	},
 /obj/structure/cable{
@@ -2524,7 +2455,6 @@
 "cVC" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
-	icon_state = "pipe-t";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
@@ -2545,7 +2475,6 @@
 "cYb" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -2576,10 +2505,7 @@
 /turf/exterior/wildgrass,
 /area/fairpoint/street)
 "dcJ" = (
-/obj/machinery/material_processing/smeltery{
-	input_turf = 8;
-	output_turf = 4
-	},
+/obj/machinery/material_processing/smeltery,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/shipping/miningdock)
 "ddg" = (
@@ -2606,7 +2532,6 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /turf/exterior/dirt,
@@ -2614,7 +2539,6 @@
 "deK" = (
 /obj/item/roller,
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/white,
@@ -2648,7 +2572,6 @@
 "dgc" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/white,
@@ -2755,7 +2678,6 @@
 "dmE" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHWEST)";
-	icon_state = "corner_white";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
@@ -2815,12 +2737,10 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/paleblue{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -2852,8 +2772,7 @@
 "dsT" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Detectives' Office";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/structure/table/reinforced,
 /obj/item/clothing/accessory/buddytag,
@@ -2867,7 +2786,6 @@
 "dtO" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -2879,7 +2797,6 @@
 "dve" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/dark,
@@ -2911,9 +2828,7 @@
 /area/fairpoint/street)
 "dwS" = (
 /obj/machinery/status_display{
-	density = 0;
 	layer = 4;
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/machinery/computer/modular/preset/civilian,
@@ -2938,7 +2853,6 @@
 	health = 1e+006
 	},
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -2952,8 +2866,7 @@
 "dzi" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 32;
-	pixel_y = 0
+	pixel_x = 32
 	},
 /obj/machinery/vending/snack,
 /turf/simulated/floor/tiled,
@@ -2969,7 +2882,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/machinery/door/blast/shutters,
@@ -3000,7 +2912,6 @@
 "dEQ" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /obj/structure/bed/chair/office/light,
@@ -3070,7 +2981,6 @@
 "dLZ" = (
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -3216,7 +3126,6 @@
 "eaI" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete/pavement/brick_paving,
@@ -3232,7 +3141,6 @@
 	id_tag = "escape_dock";
 	name = "docking port controller";
 	pixel_x = 25;
-	pixel_y = 0;
 	tag_door = "escape_dock_airlock"
 	},
 /turf/simulated/wall/concrete,
@@ -3313,7 +3221,6 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/blue/border,
@@ -3334,12 +3241,10 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/paleblue{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -3427,7 +3332,6 @@
 "env" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -3445,7 +3349,6 @@
 "eol" = (
 ,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /obj/structure/railing/mapped{
@@ -3468,7 +3371,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/item/storage/firstaid,
@@ -3479,11 +3381,9 @@
 "eoS" = (
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/structure/hygiene/toilet{
-	icon_state = "toilet00";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -3534,7 +3434,6 @@
 /area/fairpoint/street)
 "ese" = (
 /obj/machinery/door/morgue{
-	dir = 2;
 	name = "Private Study";
 	req_access = list(37)
 	},
@@ -3592,16 +3491,13 @@
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (WEST)";
-	icon_state = "corner_white";
 	dir = 8
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -3632,7 +3528,6 @@
 "eyN" = (
 /obj/item/radio/intercom{
 	dir = 4;
-	icon_state = "intercom";
 	pixel_x = -24
 	},
 /obj/structure/hygiene/faucet{
@@ -3762,7 +3657,6 @@
 	dir = 10
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -3777,7 +3671,6 @@
 /area/fairpoint/police/detectives_office)
 "eIC" = (
 /obj/machinery/ai_status_display{
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/machinery/cryopod/despawner,
@@ -3808,7 +3701,6 @@
 /area/fairpoint/medical/sleeper)
 "eKW" = (
 /obj/structure/sign/hydro{
-	icon_state = "hydro";
 	dir = 1
 	},
 /turf/simulated/wall/wood,
@@ -3853,8 +3745,7 @@
 /area/fairpoint/street/north)
 "eMS" = (
 /obj/machinery/door/airlock/command{
-	name = "Server Room";
-	req_access = null
+	name = "Server Room"
 	},
 /turf/simulated/floor/bluegrid,
 /area/fairpoint/research/server)
@@ -3908,7 +3799,6 @@
 /obj/structure/table/reinforced,
 /obj/machinery/door/window/brigdoor/eastright{
 	dir = 1;
-	icon_state = "rightsecure";
 	name = "City Supervisor's Desk";
 	req_access = list(57)
 	},
@@ -3934,7 +3824,6 @@
 "eQh" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/window/reinforced{
@@ -3963,7 +3852,6 @@
 	dir = 8
 	},
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = -4
@@ -3991,8 +3879,7 @@
 "eWl" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 32;
-	pixel_y = 0
+	pixel_x = 32
 	},
 /turf/simulated/floor/wood/ebony,
 /area/fairpoint/crew_quarters/mayor)
@@ -4000,7 +3887,6 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /obj/machinery/vending/snack,
@@ -4051,7 +3937,6 @@
 "fbr" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -4091,7 +3976,6 @@
 /area/fairpoint/research/xenobiology)
 "ffT" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 10
 	},
 /turf/exterior/concrete,
@@ -4168,7 +4052,6 @@
 /obj/effect/floor_decal/corner/pink/diagonal,
 /obj/effect/floor_decal/corner/pink/diagonal{
 	tag = "icon-corner_white_diagonal (EAST)";
-	icon_state = "corner_white_diagonal";
 	dir = 4
 	},
 /obj/item/clothing/head/soft/grey{
@@ -4191,7 +4074,6 @@
 "fpM" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
@@ -4211,7 +4093,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -4221,7 +4102,6 @@
 	dir = 10
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 10;
 	c_tag = "MED - Virology Airlock"
 	},
@@ -4279,7 +4159,6 @@
 "frN" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -4287,7 +4166,6 @@
 "frP" = (
 /obj/structure/table/glass,
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/white,
@@ -4335,7 +4213,6 @@
 /obj/machinery/vending/snack,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
@@ -4350,12 +4227,10 @@
 "fvE" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHWEST)";
-	icon_state = "corner_white";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
@@ -4514,7 +4389,6 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/item/radio/intercom{
 	dir = 4;
-	icon_state = "intercom";
 	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -4610,11 +4484,9 @@
 "fNg" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 0;
 	pixel_y = 25
 	},
 /obj/structure/bed/chair/comfy/green{
-	icon_state = "comfychair";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
@@ -4666,7 +4538,6 @@
 "fQM" = (
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (WEST)";
-	icon_state = "corner_white_full";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -4684,7 +4555,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /mob/living/bot/medbot,
@@ -4699,7 +4569,6 @@
 "fTb" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -4710,7 +4579,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -4750,7 +4618,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -4774,7 +4641,6 @@
 "fYi" = (
 /obj/structure/bed/chair/wheelchair{
 	tag = "icon-wheelchair (WEST)";
-	icon_state = "wheelchair";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -4843,12 +4709,10 @@
 /area/fairpoint/police)
 "gby" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete,
@@ -4867,8 +4731,7 @@
 "gbY" = (
 /obj/structure/table/woodentable,
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /obj/item/modular_computer/laptop/preset/records,
 /turf/simulated/floor/wood/walnut,
@@ -4889,7 +4752,6 @@
 "gey" = (
 /obj/machinery/conveyor{
 	dir = 8;
-	icon_state = "conveyor0";
 	id_tag = "_cargo_shuttle_conveyors"
 	},
 /turf/simulated/floor/plating,
@@ -4905,7 +4767,6 @@
 /obj/item/clothing/accessory/storage/holster,
 /obj/item/gun/energy/taser,
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -4926,7 +4787,6 @@
 "gfE" = (
 /obj/machinery/conveyor{
 	dir = 4;
-	icon_state = "conveyor0";
 	id_tag = "_k_mining_conveyor"
 	},
 /turf/simulated/floor/tiled,
@@ -5001,7 +4861,6 @@
 /area/fairpoint/medical/surgery)
 "gle" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /obj/structure/pit/closed/grave,
@@ -5023,7 +4882,6 @@
 	dir = 1
 	},
 /obj/machinery/newscaster{
-	pixel_x = 0;
 	pixel_y = -28
 	},
 /turf/simulated/floor/wood,
@@ -5043,7 +4901,6 @@
 "gng" = (
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/dark,
@@ -5062,7 +4919,6 @@
 /area/fairpoint/crew_quarters/mayor)
 "goe" = (
 /obj/machinery/door/window/northright{
-	icon_state = "right";
 	dir = 2
 	},
 /turf/simulated/floor/wood,
@@ -5070,8 +4926,7 @@
 "goT" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Foyer";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/brig)
@@ -5081,7 +4936,6 @@
 "gpw" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (WEST)";
-	icon_state = "corner_white";
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
@@ -5101,7 +4955,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/paleblue/border,
@@ -5121,7 +4974,6 @@
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/structure/bed/chair/office/light{
@@ -5136,7 +4988,6 @@
 "gtm" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -5160,8 +5011,7 @@
 "gvi" = (
 /obj/machinery/camera/autoname,
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/exterior/concrete/pavement/brick_paving,
 /area/fairpoint/street)
@@ -5192,18 +5042,15 @@
 "gwE" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/exterior/concrete/pavement/brick_paving,
 /area/fairpoint/street/west)
 "gwM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	icon_state = "11-supply";
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	icon_state = "11-scrubbers";
 	dir = 10
 	},
 /obj/structure/cable{
@@ -5230,8 +5077,7 @@
 /area/fairpoint/police/detectives_office)
 "gyF" = (
 /obj/structure/disposalpipe/trunk{
-	dir = 1;
-	icon_state = "pipe-t"
+	dir = 1
 	},
 /obj/machinery/disposal,
 /turf/exterior/concrete/pavement/empty,
@@ -5338,7 +5184,6 @@
 /area/fairpoint/street)
 "gIX" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 10
 	},
 /turf/exterior/water,
@@ -5361,7 +5206,6 @@
 	pixel_y = 28
 	},
 /obj/structure/hand_cart{
-	icon_state = "cart";
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
@@ -5369,7 +5213,6 @@
 "gKM" = (
 ,
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /mob/living/carbon/human/monkey,
@@ -5422,7 +5265,6 @@
 "gNn" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/paleblue/border,
@@ -5447,7 +5289,6 @@
 "gOl" = (
 /obj/machinery/door/window/eastleft,
 /obj/machinery/camera/network/security{
-	icon_state = "camera";
 	dir = 6;
 	c_tag = "SEC - Prison Living Quarters"
 	},
@@ -5463,7 +5304,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -5492,12 +5332,10 @@
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (SOUTHWEST)";
-	icon_state = "corner_white";
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
@@ -5521,8 +5359,7 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 4;
-	icon_state = "warning_dust"
+	dir = 4
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/east)
@@ -5610,7 +5447,6 @@
 "gYo" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -5717,8 +5553,7 @@
 /obj/structure/disposalpipe/segment,
 /obj/random/trash,
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 4;
-	icon_state = "warning_dust"
+	dir = 4
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/east)
@@ -5771,7 +5606,6 @@
 /area/fairpoint/police/brig/processing)
 "hfV" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 1
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -5786,7 +5620,6 @@
 "hhd" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/exterior/concrete/pavement/brick_paving,
@@ -6036,12 +5869,10 @@
 "hEN" = (
 /obj/structure/sign/directions/evac{
 	dir = 8;
-	icon_state = "direction_evac";
 	pixel_y = 25
 	},
 /obj/structure/sign/directions/medical{
 	dir = 4;
-	icon_state = "direction_med";
 	pixel_y = 33
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -6051,7 +5882,6 @@
 /area/fairpoint/medical/patient_wing)
 "hFi" = (
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /turf/simulated/floor/wood,
@@ -6070,7 +5900,6 @@
 "hHb" = (
 /obj/item/roller,
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/white,
@@ -6169,7 +5998,6 @@
 /area/fairpoint/police/brig)
 "hQn" = (
 /obj/structure/disposalpipe/junction{
-	icon_state = "pipe-j1";
 	dir = 1
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -6270,7 +6098,6 @@
 "hVY" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/machinery/light/neon/red{
@@ -6322,7 +6149,6 @@
 "hYY" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/structure/table/reinforced,
@@ -6345,7 +6171,6 @@
 /area/fairpoint/shipping/office)
 "hZP" = (
 /obj/effect/floor_decal/corner/grey/bordercorner{
-	icon_state = "bordercolorcorner";
 	dir = 1
 	},
 /turf/exterior/concrete,
@@ -6392,12 +6217,10 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/machinery/computer/modular/preset/medical,
@@ -6414,7 +6237,6 @@
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (EAST)";
-	icon_state = "corner_white_full";
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/security,
@@ -6450,7 +6272,6 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -6461,8 +6282,7 @@
 /area/fairpoint/law/judge)
 "ihl" = (
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
 /area/fairpoint/crew_quarters/bar)
@@ -6521,8 +6341,7 @@
 /area/fairpoint/cityhall)
 "iiY" = (
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /obj/structure/disposalpipe/segment{
 	dir = 2;
@@ -6633,9 +6452,6 @@
 /obj/effect/wingrille_spawn/reinforced,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/patient_b)
-"imV" = (
-/turf/exterior/concrete,
-/area/fairpoint/street/north)
 "inS" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -6647,7 +6463,6 @@
 /obj/effect/floor_decal/industrial/hatch/yellow,
 /obj/machinery/light_switch{
 	dir = 1;
-	icon_state = "light0";
 	pixel_y = -24
 	},
 /turf/simulated/floor/tiled,
@@ -6685,7 +6500,6 @@
 "itI" = (
 /obj/machinery/conveyor{
 	dir = 4;
-	icon_state = "conveyor0";
 	id_tag = "_k_mining_conveyor"
 	},
 /obj/effect/floor_decal/industrial/warning,
@@ -6717,7 +6531,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/machinery/vending/medical,
@@ -6810,8 +6623,7 @@
 /area/fairpoint/hallway/secondary/exit)
 "iCp" = (
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
@@ -6844,7 +6656,6 @@
 /area/fairpoint/library)
 "iEd" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/exterior/dirt,
@@ -6863,8 +6674,7 @@
 /obj/item/pickaxe,
 /obj/item/hoist_kit,
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube_map"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/shipping/miningdock)
@@ -6876,7 +6686,6 @@
 /obj/effect/floor_decal/corner/pink/diagonal,
 /obj/effect/floor_decal/corner/pink/diagonal{
 	tag = "icon-corner_white_diagonal (EAST)";
-	icon_state = "corner_white_diagonal";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -6902,12 +6711,10 @@
 "iJF" = (
 /obj/machinery/flasher{
 	id = "Cell 1";
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -6991,8 +6798,7 @@
 /area/fairpoint/police)
 "iOU" = (
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/fairpoint/police/brig/processing)
@@ -7003,7 +6809,6 @@
 "iPy" = (
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
@@ -7011,7 +6816,6 @@
 "iPO" = (
 /obj/machinery/conveyor{
 	dir = 8;
-	icon_state = "conveyor0";
 	id_tag = "_cargo_shuttle_conveyors"
 	},
 /turf/simulated/floor/plating,
@@ -7050,7 +6854,6 @@
 "iTJ" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/structure/bed/chair/comfy/black,
@@ -7059,7 +6862,6 @@
 "iUn" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1;
-	icon_state = "warning_dust";
 	tag = "icon-warning_dust (NORTH)"
 	},
 /obj/item/caution/cone,
@@ -7076,7 +6878,6 @@
 "iUR" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
@@ -7111,7 +6912,6 @@
 "iYg" = (
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -7152,7 +6952,6 @@
 "iZf" = (
 /obj/machinery/conveyor{
 	dir = 4;
-	icon_state = "conveyor0";
 	id_tag = "_k_mining_conveyor"
 	},
 /obj/effect/floor_decal/industrial/warning{
@@ -7178,7 +6977,6 @@
 /area/fairpoint/police/lobby)
 "jcz" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /turf/exterior/dirt,
@@ -7190,7 +6988,6 @@
 /area/fairpoint/street/east)
 "jdD" = (
 /obj/structure/hand_cart{
-	icon_state = "cart";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -7232,8 +7029,7 @@
 	icon_state = "pipe-c"
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 8;
-	icon_state = "warning_dust"
+	dir = 8
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/north)
@@ -7254,7 +7050,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/item/toy/desk/officetoy,
@@ -7292,7 +7087,6 @@
 /obj/item/clothing/accessory/storage/holster,
 /obj/item/gun/energy/taser,
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -7300,7 +7094,6 @@
 "jjv" = (
 /obj/structure/hygiene/sink{
 	dir = 8;
-	icon_state = "sink";
 	pixel_x = -12
 	},
 /obj/machinery/alarm{
@@ -7330,7 +7123,6 @@
 	dir = 10
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -7364,7 +7156,6 @@
 /area/fairpoint/police/meeting)
 "jlz" = (
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/bed/sofa{
@@ -7396,11 +7187,9 @@
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (WEST)";
-	icon_state = "corner_white";
 	dir = 8
 	},
 /obj/machinery/body_scanconsole{
-	icon_state = "body_scannerconsole";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -7408,7 +7197,6 @@
 "jon" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	tag = "icon-borderfloor_white (EAST)";
-	icon_state = "borderfloor_white";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/freezer,
@@ -7440,8 +7228,7 @@
 "jsb" = (
 /obj/machinery/disposal,
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /obj/structure/disposalpipe/trunk,
 /turf/simulated/floor/carpet,
@@ -7503,7 +7290,6 @@
 "juS" = (
 /obj/effect/floor_decal/industrial/warning/dust,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/old_cargo,
@@ -7608,13 +7394,11 @@
 "jDT" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 32;
-	pixel_y = 0
+	pixel_x = 32
 	},
 /obj/machinery/vending/cola,
 /turf/simulated/floor/tiled/white,
@@ -7625,14 +7409,12 @@
 "jEI" = (
 ,
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/street/north)
 "jFR" = (
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = -4
@@ -7645,7 +7427,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/structure/bed/chair/office/light{
@@ -7669,7 +7450,6 @@
 /area/fairpoint/street/north)
 "jIA" = (
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/bed/sofa{
@@ -7711,8 +7491,7 @@
 /area/fairpoint/police/range)
 "jNJ" = (
 /obj/machinery/light_switch{
-	pixel_x = -23;
-	pixel_y = 0
+	pixel_x = -23
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
@@ -7742,7 +7521,6 @@
 "jPQ" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /obj/structure/closet/cabinet,
@@ -7762,12 +7540,10 @@
 "jQp" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -7787,12 +7563,10 @@
 "jRw" = (
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/paleblue{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/paleblue,
@@ -7815,7 +7589,6 @@
 /obj/effect/floor_decal/corner/pink/diagonal,
 /obj/effect/floor_decal/corner/pink/diagonal{
 	tag = "icon-corner_white_diagonal (EAST)";
-	icon_state = "corner_white_diagonal";
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
@@ -7857,7 +7630,6 @@
 "jVY" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -7919,7 +7691,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/machinery/body_scanconsole{
@@ -7938,7 +7709,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/item/storage/firstaid/adv,
@@ -7955,7 +7725,6 @@
 "kaY" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -7985,11 +7754,9 @@
 /area/fairpoint/medical/sleeper)
 "kdH" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/old_cargo,
@@ -8002,15 +7769,13 @@
 	dir = 8
 	},
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/detectives_office)
 "keB" = (
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/cityhall)
@@ -8071,9 +7836,7 @@
 /area/fairpoint/law)
 "khR" = (
 /obj/machinery/door/window/northright{
-	base_state = "right";
 	dir = 2;
-	icon_state = "right";
 	name = "Library Desk Door";
 	req_access = list(37)
 	},
@@ -8103,14 +7866,12 @@
 /area/fairpoint/medical/sleeper)
 "kiF" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/exterior/mud/dark,
 /area/fairpoint/street/outskirts)
 "kjs" = (
 /obj/machinery/door/airlock/command{
-	id_tag = null;
 	name = "CMO's Office";
 	req_access = list(40)
 	},
@@ -8218,7 +7979,6 @@
 /area/fairpoint/police/vacantoffice)
 "kqS" = (
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	icon_state = "map_vent_out";
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
@@ -8252,13 +8012,11 @@
 /area/fairpoint/research/robotics)
 "kwi" = (
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = 32
 	},
 /obj/effect/floor_decal/corner/yellow{
-	icon_state = "corner_white";
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
@@ -8287,7 +8045,6 @@
 "kyN" = (
 /obj/effect/floor_decal/borderfloorwhite/corner{
 	dir = 1;
-	icon_state = "borderfloorcorner_white";
 	tag = "icon-borderfloorcorner_white (EAST)"
 	},
 /turf/simulated/floor/tiled/freezer,
@@ -8304,7 +8061,6 @@
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -8398,7 +8154,6 @@
 /area/fairpoint/street/east)
 "kHN" = (
 /obj/effect/floor_decal/corner/pink/full{
-	icon_state = "corner_white_full";
 	dir = 4
 	},
 /obj/structure/table/woodentable,
@@ -8409,7 +8164,6 @@
 /area/fairpoint/street/east)
 "kIy" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/old_cargo,
@@ -8417,8 +8171,7 @@
 "kJj" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Forensics Lab";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/detectives_office)
@@ -8440,7 +8193,6 @@
 "kJX" = (
 ,
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/window/reinforced{
@@ -8455,7 +8207,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -8471,7 +8222,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -8502,7 +8252,6 @@
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -8542,7 +8291,6 @@
 /area/fairpoint/medical/ward)
 "kOk" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete/reinforced/road,
@@ -8595,7 +8343,6 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -8702,12 +8449,10 @@
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (WEST)";
-	icon_state = "corner_white";
 	dir = 8
 	},
 /obj/machinery/bodyscanner{
 	tag = "icon-body_scanner_0 (EAST)";
-	icon_state = "body_scanner_0";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -8715,12 +8460,10 @@
 "las" = (
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/paleblue{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/structure/closet/secure_closet/personal/patient,
@@ -8773,7 +8516,6 @@
 	pixel_y = 15
 	},
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /turf/simulated/floor/wood,
@@ -8794,7 +8536,6 @@
 "lho" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -8818,14 +8559,12 @@
 ,
 /obj/structure/bed/chair/armchair,
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/simulated/floor/wood/walnut,
 /area/fairpoint/street/north)
 "lji" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark/monotile,
@@ -8844,7 +8583,6 @@
 "lky" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
@@ -8858,7 +8596,6 @@
 /area/fairpoint/cityhall/meeting_room)
 "llw" = (
 /obj/structure/disposalpipe/junction/yjunction{
-	icon_state = "pipe-y";
 	dir = 1
 	},
 /turf/exterior/concrete/reinforced/road,
@@ -8926,12 +8663,10 @@
 /area/fairpoint/police/vacantoffice)
 "lpe" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4;
-	icon_state = "11-supply"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "11-scrubbers"
+	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -8945,7 +8680,6 @@
 	health = 1e+006
 	},
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /turf/simulated/floor/tiled/white/monotile,
@@ -8965,14 +8699,12 @@
 "lrZ" = (
 /obj/effect/floor_decal/corner/red/diagonal,
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/cityhall)
 "lsi" = (
 /obj/structure/bed/chair/comfy/green{
-	icon_state = "comfychair";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
@@ -9039,7 +8771,6 @@
 "lxH" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/structure/table/woodentable,
@@ -9049,7 +8780,6 @@
 "lye" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/machinery/fabricator/book,
@@ -9167,7 +8897,6 @@
 /area/fairpoint/police/meeting)
 "lHV" = (
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = 32
@@ -9180,8 +8909,7 @@
 /area/fairpoint/street/north)
 "lIg" = (
 /obj/structure/disposalpipe/trunk{
-	dir = 1;
-	icon_state = "pipe-t"
+	dir = 1
 	},
 /obj/machinery/disposal,
 /turf/simulated/floor/tiled/old_tile,
@@ -9198,8 +8926,7 @@
 "lIR" = (
 /obj/structure/catwalk,
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 8;
-	icon_state = "warning_dust"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/fairpoint/maintenance/surface)
@@ -9258,7 +8985,6 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /obj/machinery/vending/coffee,
@@ -9280,12 +9006,10 @@
 /area/fairpoint/street)
 "lQc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4;
-	icon_state = "11-supply"
+	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4;
-	icon_state = "11-scrubbers"
+	dir = 4
 	},
 /obj/structure/cable{
 	icon_state = "4-8"
@@ -9294,14 +9018,12 @@
 	icon_state = "2-8"
 	},
 /obj/structure/hand_cart{
-	icon_state = "cart";
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/shipping/storage)
 "lQj" = (
 /obj/effect/floor_decal/corner/grey/bordercorner{
-	icon_state = "bordercolorcorner";
 	dir = 4
 	},
 /turf/exterior/concrete,
@@ -9318,14 +9040,11 @@
 /area/fairpoint/medical/reception)
 "lQK" = (
 /obj/machinery/status_display{
-	density = 0;
 	layer = 4;
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/machinery/cryopod/despawner{
-	dir = 4;
-	icon_state = "body_scanner_0"
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/hallway/secondary/exit)
@@ -9355,7 +9074,6 @@
 /obj/machinery/vending/cola,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
@@ -9375,7 +9093,6 @@
 "lUB" = (
 /obj/effect/floor_decal/borderfloorwhite/corner{
 	dir = 8;
-	icon_state = "borderfloorcorner_white";
 	tag = "icon-borderfloorcorner_white (EAST)"
 	},
 /turf/simulated/floor/tiled/freezer,
@@ -9397,7 +9114,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -9413,7 +9129,6 @@
 /area/fairpoint/law)
 "lWW" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
-	icon_state = "map-supply";
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/scrubbers,
@@ -9425,7 +9140,6 @@
 "lXd" = (
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -9444,7 +9158,6 @@
 	},
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -9501,7 +9214,6 @@
 /obj/structure/mopbucket,
 /obj/machinery/firealarm{
 	dir = 1;
-	pixel_x = 0;
 	pixel_y = -26
 	},
 /turf/simulated/floor/tiled,
@@ -9521,7 +9233,6 @@
 "mco" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /obj/machinery/vending/fitness,
@@ -9529,7 +9240,6 @@
 /area/fairpoint/street/east)
 "mcw" = (
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -9565,7 +9275,6 @@
 	pixel_x = -24
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/old_cargo,
@@ -9619,7 +9328,6 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /obj/item/storage/box/donkpockets,
@@ -9665,7 +9373,6 @@
 /area/fairpoint/shipping/miningdock)
 "mmN" = (
 /obj/machinery/door/morgue{
-	dir = 2;
 	name = "Confession Booth"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -9680,7 +9387,6 @@
 	},
 /obj/machinery/door/window/eastright{
 	name = "city hall security office";
-	icon_state = "right";
 	dir = 1;
 	req_access = list(19)
 	},
@@ -9712,7 +9418,6 @@
 /area/fairpoint/street/north)
 "moQ" = (
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /obj/structure/window/reinforced{
@@ -9775,7 +9480,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/item/storage/firstaid/stab,
@@ -9827,7 +9531,6 @@
 /area/fairpoint/medical/reception)
 "mBe" = (
 /obj/machinery/computer/cryopod{
-	density = 0;
 	layer = 3.3;
 	pixel_y = 32
 	},
@@ -9866,7 +9569,6 @@
 	},
 /obj/machinery/door/window/southright{
 	name = "judge area";
-	icon_state = "right";
 	dir = 8;
 	req_access = list(63)
 	},
@@ -9878,7 +9580,6 @@
 "mEH" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -9894,7 +9595,6 @@
 /obj/structure/bed/padded,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
@@ -9905,7 +9605,6 @@
 /area/fairpoint/crew_quarters/medbreak)
 "mFU" = (
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/white,
@@ -9928,8 +9627,7 @@
 	},
 /obj/structure/window/basic,
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/beach/water,
 /area/fairpoint/law)
@@ -10008,7 +9706,6 @@
 "mPl" = (
 ,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /obj/effect/floor_decal/spline/fancy/wood{
@@ -10087,7 +9784,6 @@
 /area/fairpoint/library)
 "mTl" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/machinery/door/blast/regular,
@@ -10119,8 +9815,7 @@
 "mUh" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Detectives' Office";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/machinery/papershredder,
 /obj/machinery/light/small{
@@ -10144,7 +9839,6 @@
 /area/fairpoint/police/brig)
 "mVt" = (
 /obj/machinery/camera/network/research{
-	icon_state = "camera";
 	dir = 8;
 	c_tag = "SCI - Research Elevator Airlock"
 	},
@@ -10164,7 +9858,6 @@
 	dir = 8
 	},
 /obj/machinery/light{
-	icon_state = "tube_map";
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
@@ -10216,7 +9909,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
@@ -10238,7 +9930,6 @@
 /area/fairpoint/research/xenobiology)
 "mYT" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete,
@@ -10307,7 +9998,6 @@
 "nha" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (SOUTHWEST)";
-	icon_state = "corner_white";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
@@ -10405,12 +10095,10 @@
 "noH" = (
 /obj/machinery/conveyor{
 	dir = 8;
-	icon_state = "conveyor0";
 	id_tag = "_cargo_shuttle_conveyors"
 	},
 /obj/machinery/door/blast/shutters{
 	dir = 8;
-	icon_state = "shutter1";
 	id_tag = "_k_cargo_dock_shutter"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -10433,7 +10121,6 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /obj/machinery/washing_machine,
@@ -10462,8 +10149,7 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Foyer";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/lobby)
@@ -10502,7 +10188,6 @@
 /area/fairpoint/shipping/storage)
 "nsz" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -10543,7 +10228,6 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /obj/machinery/vending/cigarette,
@@ -10703,12 +10387,10 @@
 "nDG" = (
 /obj/machinery/door/blast/shutters{
 	dir = 8;
-	icon_state = "shutter1";
 	id_tag = "_k_cargo_dock_shutter"
 	},
 /obj/machinery/conveyor{
 	dir = 8;
-	icon_state = "conveyor0";
 	id_tag = "_cargo_shuttle_conveyors"
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -10729,7 +10411,6 @@
 "nEv" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /obj/machinery/lapvend,
@@ -10738,12 +10419,10 @@
 "nFC" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/structure/hygiene/sink{
 	dir = 8;
-	icon_state = "sink";
 	pixel_x = -12
 	},
 /turf/simulated/floor/tiled/white,
@@ -10771,7 +10450,6 @@
 /area/fairpoint/police)
 "nGf" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -10805,7 +10483,6 @@
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/disposalpipe/junction{
-	icon_state = "pipe-j1";
 	dir = 1
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -10813,13 +10490,11 @@
 "nJE" = (
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/red/border,
 /obj/structure/hygiene/sink{
 	dir = 8;
-	icon_state = "sink";
 	pixel_x = -12
 	},
 /turf/simulated/floor/tiled/white,
@@ -10858,7 +10533,6 @@
 /area/fairpoint/maintenance/surface)
 "nMR" = (
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 10;
 	c_tag = "MED - Virology Airlock"
 	},
@@ -10876,12 +10550,10 @@
 "nOd" = (
 /obj/machinery/flasher{
 	id = "Cell 2";
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/red{
@@ -10915,7 +10587,6 @@
 "nPV" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -10951,14 +10622,12 @@
 	},
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Detectives' Office";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/brig)
 "nTa" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /obj/structure/railing/mapped,
@@ -11017,11 +10686,9 @@
 /area/fairpoint/medical/patient_wing)
 "nXu" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 9
 	},
 /turf/exterior/concrete,
@@ -11043,7 +10710,6 @@
 "oaP" = (
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -11186,7 +10852,6 @@
 "omP" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -11207,7 +10872,6 @@
 /area/fairpoint/medical/cmo)
 "oon" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/machinery/door/blast/shutters/indestructible,
@@ -11247,7 +10911,6 @@
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /obj/structure/table/reinforced,
@@ -11277,8 +10940,7 @@
 	},
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 32;
-	pixel_y = 0
+	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -11292,7 +10954,6 @@
 	},
 /obj/machinery/flasher{
 	id = "Cell 3";
-	pixel_x = 0;
 	pixel_y = -32
 	},
 /obj/structure/bed,
@@ -11304,7 +10965,6 @@
 	},
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/red/border,
@@ -11341,7 +11001,6 @@
 	dir = 9
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
@@ -11373,7 +11032,6 @@
 "oxx" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/exterior/concrete,
@@ -11407,7 +11065,6 @@
 	health = null
 	},
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white/monotile,
@@ -11430,8 +11087,7 @@
 	},
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Detectives' Office";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/brig)
@@ -11458,7 +11114,6 @@
 /obj/structure/holostool,
 /obj/effect/floor_decal/chapel{
 	dir = 8;
-	icon_state = "chapel";
 	tag = "icon-chapel (WEST)"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -11534,8 +11189,7 @@
 /area/fairpoint/chapel/office)
 "oJq" = (
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/exterior/concrete/pavement/brick_paving,
 /area/fairpoint/street)
@@ -11547,7 +11201,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/item/storage/box/checkers,
@@ -11572,8 +11225,7 @@
 "oKD" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Parking South";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/fairpoint/police)
@@ -11581,7 +11233,6 @@
 /obj/machinery/vending/cigarette,
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /turf/simulated/floor/tiled,
@@ -11608,7 +11259,6 @@
 /area/fairpoint/research)
 "oMJ" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/exterior/wildgrass,
@@ -11640,7 +11290,6 @@
 "oQc" = (
 ,
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /turf/simulated/floor/tiled/white/monotile,
@@ -11666,7 +11315,6 @@
 "oSt" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /obj/machinery/vending/snack,
@@ -11674,8 +11322,7 @@
 /area/fairpoint/street/east)
 "oSH" = (
 /obj/machinery/light/small{
-	dir = 1;
-	icon_state = "bulb_map"
+	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/crew_quarters/bar)
@@ -11687,7 +11334,6 @@
 /obj/machinery/vending/coffee,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
@@ -11722,7 +11368,6 @@
 /area/fairpoint/street/north)
 "oVV" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/stone,
@@ -11746,7 +11391,6 @@
 /obj/structure/plasticflaps,
 /obj/machinery/conveyor{
 	dir = 4;
-	icon_state = "conveyor0";
 	id_tag = "_k_mining_conveyor"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -11759,8 +11403,7 @@
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/spline/fancy,
 /obj/effect/floor_decal/spline/fancy{
-	dir = 10;
-	icon_state = "spline_fancy"
+	dir = 10
 	},
 /turf/simulated/floor/tiled{
 	color = "";
@@ -11785,7 +11428,6 @@
 /area/fairpoint/crew_quarters/bar)
 "pbL" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/old_cargo,
@@ -11837,7 +11479,6 @@
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -11862,7 +11503,6 @@
 /area/fairpoint/street/east)
 "phY" = (
 /obj/effect/floor_decal/spline/fancy{
-	icon_state = "spline_fancy";
 	dir = 6
 	},
 /obj/structure/flora/pottedplant/minitree{
@@ -11904,7 +11544,6 @@
 /area/fairpoint/medical/psych)
 "pkm" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete/reinforced/road,
@@ -11915,7 +11554,6 @@
 "pmB" = (
 ,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /obj/structure/railing/mapped,
@@ -11925,8 +11563,7 @@
 "pmN" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/maintenance/surface)
@@ -11938,7 +11575,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/item/storage/box/donkpockets,
@@ -11962,8 +11598,7 @@
 "ppO" = (
 /obj/effect/floor_decal/industrial/outline/yellow,
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube_map"
+	dir = 8
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/shipping/storage)
@@ -12019,8 +11654,7 @@
 	icon_state = "pipe-j2"
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 4;
-	icon_state = "warning_dust"
+	dir = 4
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/east)
@@ -12058,7 +11692,6 @@
 "pxh" = (
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (WEST)";
-	icon_state = "corner_white_full";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -12125,7 +11758,6 @@
 "pBc" = (
 ,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /obj/structure/railing/mapped{
@@ -12147,7 +11779,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/item/storage/firstaid/o2,
@@ -12156,7 +11787,6 @@
 /area/fairpoint/medical/biostorage)
 "pDc" = (
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 4
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -12177,7 +11807,6 @@
 "pGi" = (
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -12258,7 +11887,6 @@
 "pKA" = (
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
-	icon_state = "leftsecure";
 	name = "police moped door"
 	},
 /turf/exterior/concrete,
@@ -12274,8 +11902,7 @@
 "pMn" = (
 ,
 /obj/machinery/light/small{
-	dir = 4;
-	pixel_y = 0
+	dir = 4
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/north)
@@ -12291,7 +11918,6 @@
 /area/fairpoint/law)
 "pMN" = (
 /obj/machinery/door/morgue{
-	dir = 2;
 	name = "Confession Booth"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -12335,7 +11961,6 @@
 /area/fairpoint/supply_shuttle_dock)
 "pPR" = (
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /turf/simulated/floor/tiled{
@@ -12388,7 +12013,6 @@
 "pVD" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -12396,7 +12020,6 @@
 "pVJ" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /obj/machinery/vending/assist,
@@ -12411,7 +12034,6 @@
 /area/fairpoint/medical/surgery2)
 "pWQ" = (
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/freezer,
@@ -12429,7 +12051,6 @@
 /obj/structure/closet/secure_closet/personal/patient,
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (WEST)";
-	icon_state = "corner_white_full";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white,
@@ -12468,7 +12089,6 @@
 	},
 /obj/machinery/door/window/southright{
 	dir = 4;
-	icon_state = "right";
 	name = "judge area";
 	req_access = list(63)
 	},
@@ -12492,7 +12112,6 @@
 	dir = 4
 	},
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = -4
@@ -12547,7 +12166,6 @@
 "qhc" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -12641,7 +12259,6 @@
 /obj/item/clothing/accessory/storage/holster,
 /obj/item/gun/energy/taser,
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -12655,7 +12272,6 @@
 /area/fairpoint/police/detectives_office)
 "qnx" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/exterior/concrete/reinforced/road,
@@ -12666,7 +12282,6 @@
 /area/fairpoint/police)
 "qon" = (
 /obj/machinery/camera/network/research{
-	icon_state = "camera";
 	dir = 8;
 	c_tag = "SCI - Research Elevator Airlock"
 	},
@@ -12678,8 +12293,7 @@
 /area/fairpoint/street/east)
 "qoE" = (
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /obj/structure/window/reinforced{
 	dir = 4;
@@ -12730,7 +12344,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/item/storage/firstaid/clotting,
@@ -12743,7 +12356,6 @@
 /area/fairpoint/science/rd)
 "qrO" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/monotile,
@@ -12767,7 +12379,6 @@
 /area/fairpoint/street)
 "qut" = (
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 10;
 	c_tag = "MED - Virology Airlock"
 	},
@@ -12779,15 +12390,13 @@
 /area/fairpoint/maintenance/surface)
 "qvF" = (
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/simulated/floor,
 /area/fairpoint/maintenance/surface)
 "qvJ" = (
 /obj/effect/floor_decal/corner/orange{
 	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /obj/machinery/hologram/holopad,
@@ -12849,8 +12458,7 @@
 	dir = 9
 	},
 /obj/machinery/light_switch{
-	pixel_x = -23;
-	pixel_y = 0
+	pixel_x = -23
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/medbay)
@@ -12905,7 +12513,6 @@
 "qDD" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /obj/machinery/vending/sol,
@@ -12931,7 +12538,7 @@
 /area/fairpoint/street/west)
 "qIE" = (
 /obj/machinery/door/airlock/medical{
-	req_access = newlist();
+	req_access = newlist()
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/tape_barricade/door,
@@ -12955,8 +12562,7 @@
 	},
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Main Hallway Center";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -12972,7 +12578,6 @@
 "qLr" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/paleblue,
@@ -13031,7 +12636,6 @@
 /area/fairpoint/chapel/main)
 "qQw" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/exterior/concrete,
@@ -13062,7 +12666,6 @@
 "qSa" = (
 ,
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/showcase,
@@ -13074,7 +12677,6 @@
 /area/fairpoint/law)
 "qSn" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 8
 	},
 /turf/exterior/water,
@@ -13091,8 +12693,7 @@
 /area/fairpoint/medical/medbay)
 "qSL" = (
 /obj/machinery/light{
-	dir = 1;
-	icon_state = "tube_map"
+	dir = 1
 	},
 /obj/machinery/seed_storage,
 /turf/simulated/floor/tiled,
@@ -13113,7 +12714,6 @@
 "qVx" = (
 ,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /obj/structure/railing/mapped,
@@ -13136,7 +12736,6 @@
 /obj/effect/floor_decal/corner/grey/border,
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete,
@@ -13177,7 +12776,6 @@
 /area/fairpoint/police/detectives_office)
 "qXW" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -13200,7 +12798,6 @@
 /area/fairpoint/police/meeting)
 "qYD" = (
 /obj/structure/bed/chair/office/dark{
-	icon_state = "officechair";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/dark,
@@ -13215,7 +12812,6 @@
 "qYW" = (
 /obj/effect/floor_decal/corner/pink/diagonal{
 	tag = "icon-corner_white_diagonal (EAST)";
-	icon_state = "corner_white_diagonal";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/pink/diagonal,
@@ -13237,7 +12833,6 @@
 "qZV" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/structure/table/glass,
@@ -13261,8 +12856,7 @@
 "rbY" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 32;
-	pixel_y = 0
+	pixel_x = 32
 	},
 /obj/structure/catwalk,
 /turf/simulated/floor/tiled/dark/monotile,
@@ -13306,7 +12900,6 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/old_cargo,
@@ -13316,7 +12909,6 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /turf/exterior/concrete/pavement/brick_paving,
@@ -13345,11 +12937,9 @@
 "rgw" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{
-	icon_state = "up-scrubbers";
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/zpipe/up/supply{
-	icon_state = "up-supply";
 	dir = 4
 	},
 /obj/structure/cable{
@@ -13383,12 +12973,10 @@
 "rhH" = (
 /obj/machinery/button/blast_door{
 	dir = 1;
-	icon_state = "blastctrl";
 	id_tag = "_k_cargo_inner_shutter";
 	pixel_y = -24
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	icon_state = "map_vent_out";
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -13396,7 +12984,6 @@
 "rhP" = (
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/exterior/wildgrass,
@@ -13407,8 +12994,7 @@
 	},
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Parking South";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/machinery/vending/fitness,
 /turf/simulated/floor/tiled,
@@ -13545,7 +13131,6 @@
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1;
-	icon_state = "warning_dust";
 	tag = "icon-warning_dust (NORTH)"
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -13585,7 +13170,6 @@
 /area/fairpoint/crew_quarters/medbreak)
 "rur" = (
 /obj/machinery/light{
-	icon_state = "tube_map";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -13604,7 +13188,6 @@
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -13694,7 +13277,6 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/machinery/door/airlock/medical{
@@ -13731,7 +13313,6 @@
 "rEw" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /obj/machinery/vending/snix,
@@ -13739,7 +13320,6 @@
 /area/fairpoint/street/east)
 "rFo" = (
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 8
 	},
 /obj/structure/window/reinforced,
@@ -13790,12 +13370,10 @@
 "rIP" = (
 ,
 /obj/effect/floor_decal/spline/fancy/wood{
-	icon_state = "spline_fancy";
 	dir = 8
 	},
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/wood/walnut,
 /area/fairpoint/street/north)
@@ -13822,7 +13400,6 @@
 "rKU" = (
 /obj/effect/floor_decal/borderfloorwhite/corner{
 	dir = 4;
-	icon_state = "borderfloorcorner_white";
 	tag = "icon-borderfloorcorner_white (EAST)"
 	},
 /turf/simulated/floor/tiled/freezer,
@@ -13842,7 +13419,6 @@
 "rLZ" = (
 /obj/machinery/door/blast/shutters{
 	dir = 8;
-	icon_state = "shutter1";
 	id_tag = "_k_cargo_dock_shutter"
 	},
 /turf/exterior/concrete/reinforced/road,
@@ -13878,7 +13454,6 @@
 "rOX" = (
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (EAST)";
-	icon_state = "corner_white_full";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -13986,7 +13561,6 @@
 "rXw" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /turf/simulated/floor/tiled/dark/monotile,
@@ -14014,7 +13588,6 @@
 "sbm" = (
 /obj/effect/floor_decal/corner/pink/diagonal{
 	tag = "icon-corner_white_diagonal (EAST)";
-	icon_state = "corner_white_diagonal";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/pink/diagonal,
@@ -14024,7 +13597,6 @@
 "sbK" = (
 /obj/effect/floor_decal/corner/pink/bordercorner{
 	tag = "icon-bordercolorcorner (WEST)";
-	icon_state = "bordercolorcorner";
 	dir = 8
 	},
 /turf/simulated/floor/wood/usedup,
@@ -14062,11 +13634,9 @@
 "shy" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 32;
-	pixel_y = 0
+	pixel_x = 32
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/white,
@@ -14127,8 +13697,7 @@
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/spline/fancy,
 /obj/effect/floor_decal/spline/fancy{
-	dir = 6;
-	icon_state = "spline_fancy"
+	dir = 6
 	},
 /turf/simulated/floor/tiled{
 	color = "";
@@ -14176,7 +13745,6 @@
 /area/fairpoint/police/lobby)
 "ssq" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 9
 	},
 /turf/exterior/water,
@@ -14258,8 +13826,7 @@
 "suX" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Detectives' Office";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/structure/noticeboard{
 	pixel_y = -32
@@ -14319,7 +13886,6 @@
 "szT" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/machinery/light/street{
@@ -14333,7 +13899,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /turf/simulated/floor/tiled,
@@ -14416,7 +13981,6 @@
 "sFY" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /obj/machinery/vending/weeb,
@@ -14561,10 +14125,8 @@
 /area/fairpoint/law)
 "sQp" = (
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
-	pixel_x = 36;
-	pixel_y = 0
+	pixel_x = 36
 	},
 /obj/machinery/reagentgrinder,
 /obj/structure/table/reinforced,
@@ -14584,7 +14146,6 @@
 "sRb" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
@@ -14656,7 +14217,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
@@ -14680,11 +14240,9 @@
 /area/fairpoint/police/detectives_office)
 "sYj" = (
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = 32
@@ -14712,7 +14270,6 @@
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (EAST)";
-	icon_state = "corner_white_full";
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/security,
@@ -14751,7 +14308,6 @@
 /area/fairpoint/street/north)
 "sZU" = (
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 8
 	},
 /turf/exterior/water,
@@ -14765,7 +14321,6 @@
 "tcz" = (
 /obj/effect/floor_decal/corner/orange{
 	dir = 5;
-	icon_state = "corner_white";
 	tag = "icon-corner_white (NORTHEAST)"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -14843,13 +14398,11 @@
 "tgl" = (
 /obj/machinery/vending/wallmed1{
 	name = "NanoMed Wall";
-	pixel_x = 25;
-	pixel_y = 0
+	pixel_x = 25
 	},
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -14868,8 +14421,7 @@
 "tiD" = (
 /obj/machinery/vending/wallmed1{
 	name = "NanoMed Wall";
-	pixel_x = 25;
-	pixel_y = 0
+	pixel_x = 25
 	},
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 6
@@ -14898,8 +14450,7 @@
 /area/fairpoint/shipping/storage)
 "tkj" = (
 /obj/machinery/light/small{
-	dir = 4;
-	pixel_y = 0
+	dir = 4
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/east)
@@ -14909,8 +14460,7 @@
 	dir = 6
 	},
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/simulated/floor/wood/walnut,
 /area/fairpoint/street/north)
@@ -14920,7 +14470,6 @@
 "tlx" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete,
@@ -14936,7 +14485,6 @@
 /obj/effect/floor_decal/corner/pink/diagonal,
 /obj/effect/floor_decal/corner/pink/diagonal{
 	tag = "icon-corner_white_diagonal (EAST)";
-	icon_state = "corner_white_diagonal";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -15007,7 +14555,6 @@
 /area/fairpoint/medical/chemistry)
 "tpW" = (
 /obj/machinery/camera/network/research{
-	icon_state = "camera";
 	dir = 8;
 	c_tag = "SCI - Research Elevator Airlock"
 	},
@@ -15037,7 +14584,6 @@
 	},
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (SOUTHWEST)";
-	icon_state = "corner_white";
 	dir = 10
 	},
 /obj/machinery/hologram/holopad,
@@ -15045,9 +14591,7 @@
 /area/fairpoint/law)
 "tqG" = (
 /obj/machinery/door/window/northright{
-	base_state = "right";
 	dir = 4;
-	icon_state = "right";
 	name = "Library Desk Door";
 	req_access = list(37)
 	},
@@ -15076,7 +14620,6 @@
 "trc" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/red{
@@ -15148,7 +14691,6 @@
 "txi" = (
 /obj/effect/floor_decal/corner/grey/diagonal,
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 5;
 	c_tag = "MED - Virology Airlock"
 	},
@@ -15165,7 +14707,6 @@
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/machinery/door/blast/shutters,
@@ -15184,14 +14725,12 @@
 /area/fairpoint/police/warden)
 "tzU" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/exterior/concrete/reinforced/road,
 /area/fairpoint/street)
 "tAJ" = (
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
@@ -15301,7 +14840,6 @@
 	dir = 10
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 10;
 	c_tag = "MED - Virology Airlock"
 	},
@@ -15351,7 +14889,6 @@
 /area/fairpoint/police/detectives_office)
 "tKf" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
-	icon_state = "map_scrubber_on";
 	dir = 8
 	},
 /turf/simulated/floor/tiled,
@@ -15364,7 +14901,6 @@
 /obj/machinery/camera/network/medbay,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
@@ -15525,7 +15061,6 @@
 "tVK" = (
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/structure/table/woodentable,
@@ -15549,7 +15084,6 @@
 "tXo" = (
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1;
-	icon_state = "warning_dust";
 	tag = "icon-warning_dust (NORTH)"
 	},
 /turf/simulated/floor/tiled/techmaint,
@@ -15559,7 +15093,6 @@
 	pixel_y = 32
 	},
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /turf/simulated/floor/tiled{
@@ -15618,7 +15151,6 @@
 "ucp" = (
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (SOUTHWEST)";
-	icon_state = "corner_white";
 	dir = 10
 	},
 /obj/structure/window/reinforced,
@@ -15655,8 +15187,7 @@
 "ueK" = (
 /obj/effect/floor_decal/corner/red/full,
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -15673,9 +15204,7 @@
 /area/fairpoint/janitor)
 "ugG" = (
 /obj/machinery/door/window/brigdoor{
-	name = "police moped door";
-	icon_state = "leftsecure";
-	dir = 2
+	name = "police moped door"
 	},
 /turf/exterior/concrete,
 /area/fairpoint/street)
@@ -15689,7 +15218,6 @@
 "ugU" = (
 ,
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /mob/living/simple_animal/koala,
@@ -15703,7 +15231,6 @@
 "uhB" = (
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/paleblue,
@@ -15719,7 +15246,6 @@
 "ukx" = (
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/structure/hygiene/toilet,
@@ -15782,7 +15308,6 @@
 "unE" = (
 /obj/machinery/conveyor{
 	dir = 4;
-	icon_state = "conveyor0";
 	id_tag = "_k_mining_conveyor"
 	},
 /turf/simulated/floor/plating,
@@ -15794,7 +15319,6 @@
 "uoB" = (
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/structure/table/reinforced,
@@ -15846,7 +15370,6 @@
 "urT" = (
 /obj/structure/sign/warning/docking_area{
 	dir = 1;
-	icon_state = "securearea";
 	pixel_y = -32
 	},
 /obj/structure/railing/mapped{
@@ -15929,8 +15452,7 @@
 "uAg" = (
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 32;
-	pixel_y = 0
+	pixel_x = 32
 	},
 /turf/simulated/floor/wood/yew,
 /area/fairpoint/cityhall)
@@ -15994,7 +15516,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/item/defibrillator/loaded,
@@ -16130,7 +15651,7 @@
 /area/fairpoint/street/north)
 "uKA" = (
 /obj/machinery/door/airlock/medical{
-	req_access = newlist();
+	req_access = newlist()
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
@@ -16185,7 +15706,6 @@
 "uMM" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -16198,15 +15718,13 @@
 "uNv" = (
 /obj/structure/sign/directions/evac{
 	dir = 8;
-	icon_state = "direction_evac";
 	pixel_y = 25
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street)
 "uOo" = (
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/north)
@@ -16220,8 +15738,7 @@
 /area/fairpoint/crew_quarters/medbreak)
 "uRn" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 8;
-	icon_state = "warning_dust"
+	dir = 8
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/street/north)
@@ -16259,7 +15776,6 @@
 "uRW" = (
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -16274,7 +15790,6 @@
 /obj/effect/floor_decal/corner/paleblue,
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -16307,7 +15822,6 @@
 "uUH" = (
 /obj/machinery/papershredder,
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /turf/simulated/floor/wood,
@@ -16320,7 +15834,6 @@
 /area/fairpoint/cityhall)
 "uUZ" = (
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
@@ -16391,7 +15904,6 @@
 "vbC" = (
 /obj/machinery/door/blast/shutters{
 	dir = 8;
-	icon_state = "shutter1";
 	id_tag = "_k_cargo_dock_shutter"
 	},
 /obj/structure/disposalpipe/segment{
@@ -16439,7 +15951,6 @@
 /area/fairpoint/cityhall)
 "vdF" = (
 /obj/machinery/keycard_auth{
-	pixel_x = 0;
 	pixel_y = -24
 	},
 /obj/structure/table/reinforced,
@@ -16464,7 +15975,6 @@
 /area/fairpoint/street/outskirts)
 "vgn" = (
 /obj/effect/floor_decal/spline/fancy{
-	icon_state = "spline_fancy";
 	dir = 10
 	},
 /obj/structure/flora/pottedplant/minitree{
@@ -16479,8 +15989,7 @@
 	},
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Main Hallway West";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/structure/closet/crate/bin,
 /turf/simulated/floor/tiled,
@@ -16505,7 +16014,6 @@
 "vjw" = (
 /obj/effect/floor_decal/steeldecal/steel_decals_central5{
 	tag = "icon-steel_decals_central5 (NORTH)";
-	icon_state = "steel_decals_central5";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -16532,8 +16040,7 @@
 	dir = 5
 	},
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/carpet,
 /area/fairpoint/law)
@@ -16562,12 +16069,10 @@
 "vnm" = (
 /obj/effect/floor_decal/corner/pink/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/structure/hygiene/sink{
 	dir = 8;
-	icon_state = "sink";
 	pixel_x = -12
 	},
 /turf/simulated/floor/tiled/white,
@@ -16579,7 +16084,6 @@
 "vob" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/tiled,
@@ -16587,7 +16091,6 @@
 "voc" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHWEST)";
-	icon_state = "corner_white";
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
@@ -16613,7 +16116,6 @@
 /area/fairpoint/police/meeting)
 "vqa" = (
 /obj/effect/floor_decal/corner/grey/border{
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/machinery/door/blast/shutters/indestructible,
@@ -16684,22 +16186,19 @@
 "vvy" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/hallway/secondary/exit)
 "vvQ" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 8;
-	icon_state = "warning_dust"
+	dir = 8
 	},
 /turf/exterior/concrete/pavement/brick_paving,
 /area/fairpoint/street/west)
 "vwi" = (
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -16747,11 +16246,9 @@
 /area/fairpoint/street/north)
 "vAX" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	icon_state = "11-supply";
 	dir = 9
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	icon_state = "11-scrubbers";
 	dir = 5
 	},
 /turf/simulated/floor/tiled,
@@ -16788,12 +16285,10 @@
 "vDS" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (EAST)";
-	icon_state = "corner_white";
 	dir = 4
 	},
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHWEST)";
-	icon_state = "corner_white";
 	dir = 10
 	},
 /turf/simulated/floor/tiled,
@@ -16832,12 +16327,10 @@
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (SOUTHWEST)";
-	icon_state = "corner_white";
 	dir = 10
 	},
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -16849,11 +16342,9 @@
 "vGY" = (
 /obj/effect/wallframe_spawn/reinforced/bare,
 /obj/machinery/atmospherics/pipe/zpipe/up/supply{
-	icon_state = "up-supply";
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/zpipe/up/scrubbers{
-	icon_state = "up-scrubbers";
 	dir = 4
 	},
 /obj/structure/cable{
@@ -16913,20 +16404,15 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /obj/item/clothing/accessory/stethoscope,
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/cmo)
 "vKa" = (
-/obj/machinery/material_processing/unloader{
-	input_turf = 8;
-	output_turf = 4
-	},
+/obj/machinery/material_processing/unloader,
 /obj/effect/floor_decal/industrial/warning{
-	dir = 8;
-	icon_state = "stripe"
+	dir = 8
 	},
 /turf/simulated/floor/plating,
 /area/fairpoint/shipping/miningdock)
@@ -16941,7 +16427,6 @@
 /obj/structure/holostool,
 /obj/effect/floor_decal/chapel{
 	dir = 1;
-	icon_state = "chapel";
 	tag = "icon-chapel (NORTH)"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -16969,7 +16454,6 @@
 /area/fairpoint/library)
 "vNL" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /obj/machinery/light/street{
@@ -17028,8 +16512,7 @@
 	dir = 9
 	},
 /obj/machinery/light_switch{
-	pixel_x = -23;
-	pixel_y = 0
+	pixel_x = -23
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/medical/reception)
@@ -17044,8 +16527,7 @@
 	dir = 9
 	},
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/carpet,
 /area/fairpoint/law)
@@ -17056,10 +16538,7 @@
 /turf/simulated/floor/wood,
 /area/fairpoint/library)
 "vPX" = (
-/obj/machinery/material_processing/unloader{
-	input_turf = 8;
-	output_turf = 4
-	},
+/obj/machinery/material_processing/unloader,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 9;
 	icon_state = "warning"
@@ -17094,8 +16573,7 @@
 /area/fairpoint/law/lawoffice)
 "vSx" = (
 /obj/machinery/cryopod/despawner{
-	dir = 4;
-	icon_state = "body_scanner_0"
+	dir = 4
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/hallway/secondary/exit)
@@ -17143,15 +16621,6 @@
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/cityhall)
-"vVm" = (
-/obj/structure/table/reinforced,
-/obj/machinery/door/window/northleft{
-	dir = 1;
-	name = "Research and Development Desk";
-	req_access = list(7)
-	},
-/turf/simulated/floor/tiled,
-/area/fairpoint/research/lab)
 "vVn" = (
 /obj/effect/floor_decal/corner/paleblue/border,
 /obj/structure/bed/chair/office/light,
@@ -17170,8 +16639,7 @@
 "vVW" = (
 /obj/machinery/light{
 	dir = 8;
-	icon_state = "tube1";
-	pixel_y = 0
+	icon_state = "tube1"
 	},
 /obj/structure/reagent_dispensers/watertank,
 /turf/simulated/floor/tiled,
@@ -17211,7 +16679,6 @@
 "vYt" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (SOUTHWEST)";
-	icon_state = "corner_white";
 	dir = 10
 	},
 /obj/structure/bed/padded,
@@ -17224,9 +16691,7 @@
 /area/fairpoint/cityhall/meeting_room)
 "vZd" = (
 /obj/machinery/door/window{
-	base_state = "left";
 	dir = 8;
-	icon_state = "left";
 	name = "Hospital Ambulance Room";
 	req_access = list(5)
 	},
@@ -17271,15 +16736,13 @@
 /area/fairpoint/law/lawoffice)
 "wbM" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 8;
-	icon_state = "warning_dust"
+	dir = 8
 	},
 /turf/exterior/concrete/pavement/empty,
 /area/fairpoint/hallway/secondary/exit)
 "wck" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 8;
-	icon_state = "warning_dust"
+	dir = 8
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/hallway/secondary/exit)
@@ -17301,7 +16764,6 @@
 "wdE" = (
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/exterior/dirt,
@@ -17341,7 +16803,6 @@
 "weG" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/effect/floor_decal/corner/blue/border,
@@ -17386,7 +16847,6 @@
 "wiS" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -17446,7 +16906,6 @@
 "woC" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/exterior/concrete/pavement/pave_tiling,
@@ -17457,7 +16916,6 @@
 /area/fairpoint/crew_quarters/bar)
 "wpR" = (
 /obj/machinery/status_display{
-	pixel_x = 0;
 	pixel_y = 32
 	},
 /obj/structure/closet/jcloset,
@@ -17514,7 +16972,6 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (NORTH)";
-	icon_state = "corner_white_full";
 	dir = 1
 	},
 /obj/structure/closet/secure_closet/personal/patient,
@@ -17529,7 +16986,6 @@
 /area/fairpoint/street/north)
 "wvN" = (
 /obj/effect/floor_decal/spline/fancy{
-	icon_state = "spline_fancy";
 	dir = 10
 	},
 /obj/structure/table/woodentable,
@@ -17559,7 +17015,6 @@
 	},
 /obj/structure/sign/directions/evac{
 	dir = 8;
-	icon_state = "direction_evac";
 	pixel_y = 25
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -17568,7 +17023,6 @@
 /obj/machinery/door/window{
 	name = "Seating";
 	icon_state = "right";
-	dir = 2;
 	req_access = list(150)
 	},
 /turf/simulated/floor/tiled,
@@ -17596,7 +17050,6 @@
 "wxC" = (
 /obj/structure/hygiene/sink{
 	dir = 8;
-	icon_state = "sink";
 	pixel_x = -12
 	},
 /turf/simulated/floor/tiled/white/monotile,
@@ -17607,7 +17060,6 @@
 "wxT" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /obj/machinery/computer/modular/preset/medical,
@@ -17620,7 +17072,6 @@
 "wyI" = (
 /obj/effect/floor_decal/borderfloorwhite{
 	tag = "icon-borderfloor_white (EAST)";
-	icon_state = "borderfloor_white";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/freezer,
@@ -17657,7 +17108,6 @@
 "wAC" = (
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/old_cargo,
@@ -17752,7 +17202,6 @@
 "wIk" = (
 /obj/effect/floor_decal/corner/paleblue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/white,
@@ -17778,7 +17227,6 @@
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1;
-	icon_state = "warning_dust";
 	tag = "icon-warning_dust (NORTH)"
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -17795,7 +17243,6 @@
 "wKa" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/machinery/light/street{
@@ -17860,7 +17307,6 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/exterior/concrete/pavement/brick_paving,
@@ -17981,7 +17427,6 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /turf/space,
@@ -17991,10 +17436,7 @@
 /turf/exterior/concrete/pavement/pave_tiling,
 /area/fairpoint/street/east)
 "wTz" = (
-/obj/machinery/material_processing/unloader{
-	input_turf = 8;
-	output_turf = 4
-	},
+/obj/machinery/material_processing/unloader,
 /obj/effect/floor_decal/industrial/warning{
 	dir = 10;
 	icon_state = "warning"
@@ -18081,8 +17523,7 @@
 "wXd" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Foyer";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/machinery/washing_machine,
 /turf/simulated/floor/tiled/white,
@@ -18090,7 +17531,6 @@
 "wXi" = (
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -18179,15 +17619,13 @@
 	},
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (NORTH)";
-	icon_state = "corner_white_full";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/medical/exam_room)
 "xcH" = (
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/exterior/dirt,
 /area/fairpoint/street/outskirts)
@@ -18259,7 +17697,6 @@
 	dir = 1
 	},
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /turf/exterior/wildgrass,
@@ -18283,7 +17720,6 @@
 /obj/structure/table/reinforced,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/beige/border{
@@ -18295,8 +17731,7 @@
 "xkC" = (
 /obj/structure/disposalpipe/segment,
 /obj/effect/floor_decal/industrial/warning/dust{
-	dir = 4;
-	icon_state = "warning_dust"
+	dir = 4
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/effect/decal/cleanable/blood/oil/streak,
@@ -18461,7 +17896,6 @@
 "xzW" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /obj/machinery/vending/coffee,
@@ -18480,7 +17914,6 @@
 "xCg" = (
 /obj/effect/floor_decal/corner/pink{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /obj/machinery/vending/lavatory,
@@ -18509,7 +17942,6 @@
 "xDV" = (
 /obj/effect/floor_decal/corner/paleblue/bordercorner{
 	tag = "icon-bordercolorcorner (WEST)";
-	icon_state = "bordercolorcorner";
 	dir = 8
 	},
 /turf/simulated/floor/wood/usedup,
@@ -18547,7 +17979,6 @@
 /area/fairpoint/research/server)
 "xGA" = (
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 4
 	},
 /obj/structure/closet/crate/trashcart,
@@ -18587,7 +18018,6 @@
 /area/fairpoint/police/range)
 "xJl" = (
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = -4
@@ -18634,15 +18064,13 @@
 /area/fairpoint/street/east)
 "xOd" = (
 /obj/structure/extinguisher_cabinet{
-	pixel_x = 25;
-	pixel_y = 0
+	pixel_x = 25
 	},
 /obj/structure/janitorialcart,
 /turf/simulated/floor/tiled,
 /area/fairpoint/janitor)
 "xOM" = (
 /obj/structure/hygiene/toilet{
-	icon_state = "toilet00";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/white/monotile,
@@ -18669,7 +18097,6 @@
 "xQc" = (
 /obj/structure/railing/mapped,
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 8
 	},
 /turf/exterior/dirt,
@@ -18717,7 +18144,6 @@
 /area/fairpoint/shipping/office)
 "xVs" = (
 /obj/effect/floor_decal/corner/yellow{
-	icon_state = "corner_white";
 	dir = 6
 	},
 /turf/simulated/floor/tiled,
@@ -18725,7 +18151,6 @@
 "xVL" = (
 /obj/structure/sign/directions/evac{
 	dir = 8;
-	icon_state = "direction_evac";
 	pixel_y = 25
 	},
 /obj/structure/stairs{
@@ -18741,7 +18166,6 @@
 /obj/machinery/computer/arcade,
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/white,
@@ -18769,7 +18193,6 @@
 "xYG" = (
 /obj/structure/table/reinforced,
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = -4
@@ -18842,7 +18265,6 @@
 	},
 /obj/effect/floor_decal/corner/white{
 	tag = "icon-corner_white (NORTH)";
-	icon_state = "corner_white";
 	dir = 1
 	},
 /obj/structure/table/reinforced,
@@ -18862,7 +18284,6 @@
 "ydw" = (
 /obj/effect/floor_decal/corner/grey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /obj/machinery/light/neon/red{
@@ -18913,7 +18334,6 @@
 /obj/random/trash,
 /obj/effect/floor_decal/industrial/warning/dust{
 	dir = 1;
-	icon_state = "warning_dust";
 	tag = "icon-warning_dust (NORTH)"
 	},
 /turf/exterior/concrete/pavement/empty,
@@ -19014,7 +18434,6 @@
 /area/fairpoint/street/east)
 "ykT" = (
 /obj/structure/bed/chair/wood/ebony{
-	icon_state = "wooden_chair";
 	dir = 4
 	},
 /turf/simulated/floor/wood/walnut,
@@ -19024,7 +18443,6 @@
 	pixel_y = 32
 	},
 /obj/machinery/light_switch{
-	dir = 2;
 	name = "light switch ";
 	pixel_x = -26;
 	pixel_y = -4
@@ -19048,7 +18466,6 @@
 /area/fairpoint/law/judge)
 "yln" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monotile,
@@ -19061,7 +18478,6 @@
 	dir = 5
 	},
 /obj/machinery/camera/network/medbay{
-	icon_state = "camera";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/white,
@@ -30202,10 +29618,10 @@ dkI
 syw
 dkI
 llZ
-imV
-imV
-imV
-imV
+agT
+agT
+agT
+agT
 snK
 dkI
 dkI
@@ -30219,26 +29635,26 @@ dkI
 dkI
 dkI
 hPm
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
 bUt
 dhW
 dhW
@@ -49024,7 +48440,7 @@ qll
 aUJ
 aUJ
 tUO
-vVm
+jYq
 wet
 xuP
 xuP
@@ -51211,14 +50627,14 @@ gTh
 gTh
 llZ
 cFq
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
 chm
 llZ
 llZ
@@ -51413,14 +50829,14 @@ gTh
 gTh
 llZ
 cFq
-imV
-imV
-imV
-imV
-imV
-imV
-imV
-imV
+agT
+agT
+agT
+agT
+agT
+agT
+agT
+agT
 wIY
 llZ
 llZ
@@ -51626,7 +51042,7 @@ agT
 wOO
 lhM
 lhM
-azy
+lrl
 yhV
 yhV
 yhV
@@ -51828,23 +51244,23 @@ agT
 cDS
 lhM
 lhM
-azy
-azy
-azy
-azy
-azy
-azy
-azy
-azy
-azy
-azy
-azy
-azy
-azy
-azy
-azy
-azy
-azy
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
+lrl
 sKV
 sKV
 sKV
@@ -52046,7 +51462,7 @@ oxD
 bCZ
 bCZ
 bCZ
-azy
+lrl
 sKV
 pJO
 rSs
@@ -52248,7 +51664,7 @@ tSu
 lpp
 mWt
 bCZ
-azy
+lrl
 sKV
 qoA
 qoA
@@ -52450,7 +51866,7 @@ oNg
 oNg
 baY
 bCZ
-azy
+lrl
 sKV
 nxI
 qoA
@@ -52652,7 +52068,7 @@ oNg
 oNg
 yiV
 oxD
-azy
+lrl
 sKV
 sKV
 vZt
@@ -52854,7 +52270,7 @@ oNg
 oNg
 ist
 bCZ
-azy
+lrl
 sKV
 chC
 ewK
@@ -53056,7 +52472,7 @@ oNg
 oNg
 jZP
 bCZ
-azy
+lrl
 sKV
 qoA
 iBv
@@ -53258,7 +52674,7 @@ oNg
 oNg
 jVP
 bCZ
-azy
+lrl
 sKV
 atd
 qoA
@@ -53460,7 +52876,7 @@ oNg
 oNg
 ist
 bCZ
-azy
+lrl
 sKV
 sKV
 xoQ
@@ -53662,7 +53078,7 @@ oNg
 oNg
 jZP
 bCZ
-azy
+lrl
 sKV
 sKV
 ewK
@@ -53864,7 +53280,7 @@ oNg
 oNg
 wnd
 oxD
-azy
+lrl
 sKV
 pJO
 rSs
@@ -54066,7 +53482,7 @@ oNg
 oNg
 ist
 bCZ
-azy
+lrl
 sKV
 qoA
 qoA
@@ -54268,7 +53684,7 @@ oNg
 oNg
 jZP
 bCZ
-azy
+lrl
 sKV
 nxI
 qoA
@@ -54470,7 +53886,7 @@ oNg
 oNg
 oVK
 bCZ
-azy
+lrl
 sKV
 sKV
 xoQ
@@ -54672,7 +54088,7 @@ oNg
 oNg
 ist
 bCZ
-azy
+lrl
 sKV
 chC
 ewK
@@ -54874,7 +54290,7 @@ oNg
 oNg
 jZP
 bCZ
-azy
+lrl
 sKV
 qoA
 iBv
@@ -55076,7 +54492,7 @@ oNg
 oNg
 yiV
 oxD
-azy
+lrl
 sKV
 atd
 qoA
@@ -55278,7 +54694,7 @@ uKp
 kJX
 ist
 bCZ
-azy
+lrl
 sKV
 sKV
 xoQ
@@ -55480,7 +54896,7 @@ oxD
 bCZ
 bCZ
 bCZ
-azy
+lrl
 sKV
 sKV
 sKV
@@ -55669,8 +55085,8 @@ oFU
 oFU
 oFU
 eBp
-azy
-azy
+lrl
+lrl
 swu
 swu
 swu
@@ -55678,8 +55094,8 @@ swu
 swu
 swu
 swu
-azy
-azy
+lrl
+lrl
 ghz
 ghz
 ghz
@@ -55871,7 +55287,7 @@ oFU
 oFU
 oFU
 eBp
-azy
+lrl
 ghz
 fNf
 jEk
@@ -56073,7 +55489,7 @@ oFU
 oFU
 oFU
 eBp
-azy
+lrl
 ghz
 fNf
 jEk
@@ -56275,7 +55691,7 @@ oFU
 oFU
 oFU
 eBp
-azy
+lrl
 ghz
 fNf
 jEk
@@ -56477,7 +55893,7 @@ eAI
 oFU
 oFU
 eBp
-azy
+lrl
 ghz
 hdD
 jEk
@@ -56679,7 +56095,7 @@ aAB
 oFU
 oFU
 eBp
-azy
+lrl
 ghz
 hdD
 jEk
@@ -56881,7 +56297,7 @@ aOf
 oFU
 oFU
 eBp
-azy
+lrl
 ghz
 omr
 nMH
@@ -57083,7 +56499,7 @@ oFU
 oFU
 oFU
 eBp
-azy
+lrl
 ghz
 omr
 fJS
@@ -57285,7 +56701,7 @@ oFU
 oFU
 oFU
 eBp
-azy
+lrl
 ghz
 omr
 bBi
@@ -57487,7 +56903,7 @@ oFU
 oFU
 oFU
 eBp
-azy
+lrl
 ghz
 omr
 gXr
@@ -57689,7 +57105,7 @@ jEI
 oFU
 oFU
 eBp
-azy
+lrl
 ghz
 omr
 nMH
@@ -57891,7 +57307,7 @@ oFU
 oFU
 oFU
 eBp
-azy
+lrl
 ghz
 omr
 fzp

@@ -52,15 +52,13 @@
 "apb" = (
 /obj/machinery/flasher{
 	id = "permaflash";
-	name = "Floor mounted flash";
-	pixel_x = 0
+	name = "Floor mounted flash"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison)
 "apv" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/red{
@@ -80,7 +78,6 @@
 "asH" = (
 /obj/effect/floor_decal/corner/blue/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /turf/simulated/floor/reinforced,
@@ -108,11 +105,9 @@
 	},
 /obj/machinery/light_switch/on{
 	dir = 1;
-	icon_state = "light0";
 	pixel_y = -18
 	},
 /obj/machinery/atmospherics/unary/vent_pump/on{
-	icon_state = "map_vent_out";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -124,7 +119,6 @@
 "aCb" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/red{
@@ -138,7 +132,6 @@
 /area/fairpoint/maintenance/telecomms)
 "aDE" = (
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
@@ -160,11 +153,9 @@
 /area/fairpoint/maintenance/telecomms)
 "aJe" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	icon_state = "11-supply";
 	dir = 10
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	icon_state = "11-scrubbers";
 	dir = 10
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -337,8 +328,7 @@
 	dir = 8
 	},
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -412,7 +402,6 @@
 "bPX" = (
 /obj/machinery/atmospherics/unary/freezer{
 	dir = 1;
-	icon_state = "freezer_0";
 	temperature = 200;
 	use_power = 1
 	},
@@ -420,14 +409,12 @@
 /area/fairpoint/turret_protected/ai_server_room)
 "bTB" = (
 /obj/machinery/camera/network/engineering{
-	icon_state = "camera";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/engineering/ce)
 "bVL" = (
 /obj/machinery/power/apc{
-	dir = 2;
 	name = "south bump";
 	pixel_y = -24
 	},
@@ -451,7 +438,6 @@
 	},
 /obj/machinery/flasher{
 	id = "Cell 4";
-	pixel_x = 0;
 	pixel_y = -32
 	},
 /obj/structure/bed,
@@ -545,7 +531,6 @@
 "cDT" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /obj/structure/table/reinforced,
@@ -681,7 +666,6 @@
 /area/fairpoint/police/cop)
 "ddV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
-	icon_state = "11";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -738,8 +722,7 @@
 "dsT" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Detectives' Office";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/structure/table/reinforced,
 /obj/item/clothing/accessory/buddytag,
@@ -780,8 +763,7 @@
 /area/fairpoint/police/cop)
 "dID" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
-	dir = 4;
-	icon_state = "11"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/turret_protected/ai_server_room)
@@ -796,7 +778,6 @@
 "dLZ" = (
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (NORTHWEST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -838,8 +819,7 @@
 /area/fairpoint/engineering/ce)
 "ebt" = (
 /obj/machinery/light{
-	dir = 8;
-	icon_state = "tube_map"
+	dir = 8
 	},
 /obj/structure/cable/blue{
 	icon_state = "1-2"
@@ -885,7 +865,6 @@
 "elY" = (
 /obj/machinery/atmospherics/unary/freezer{
 	dir = 1;
-	icon_state = "freezer_0";
 	temperature = 200;
 	use_power = 1
 	},
@@ -902,7 +881,6 @@
 "epE" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /obj/structure/window/reinforced{
@@ -916,8 +894,7 @@
 	use_power = 1
 	},
 /obj/machinery/light{
-	dir = 4;
-	icon_state = "tube_map"
+	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/turret_protected/ai_server_room)
@@ -925,7 +902,6 @@
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "north bump";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/structure/table/reinforced,
@@ -983,7 +959,6 @@
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "north bump";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /turf/simulated/floor/tiled/white,
@@ -1004,8 +979,7 @@
 /area/fairpoint/police/detectives_office)
 "eJn" = (
 /obj/machinery/light/small{
-	dir = 1;
-	icon_state = "bulb_map"
+	dir = 1
 	},
 /obj/structure/table,
 /obj/machinery/camera/network/engineering,
@@ -1055,7 +1029,6 @@
 "eTH" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/dark,
@@ -1063,8 +1036,7 @@
 "eTZ" = (
 /obj/machinery/flasher{
 	id = "holdflash";
-	name = "Floor mounted flash";
-	pixel_x = 0
+	name = "Floor mounted flash"
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison)
@@ -1125,7 +1097,6 @@
 "frN" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -1153,8 +1124,7 @@
 "fBU" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Parking South";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison/dorm)
@@ -1218,8 +1188,7 @@
 	},
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Main Hallway West";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/main)
@@ -1236,7 +1205,6 @@
 "fNf" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/simulated/floor/reinforced,
@@ -1331,8 +1299,7 @@
 "goT" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Foyer";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -1396,7 +1363,6 @@
 /area/fairpoint/law)
 "gLT" = (
 /obj/machinery/atmospherics/pipe/manifold/hidden/green{
-	icon_state = "map";
 	dir = 1
 	},
 /obj/machinery/meter,
@@ -1432,7 +1398,6 @@
 /area/fairpoint/maintenance/telecomms)
 "gOl" = (
 /obj/machinery/camera/network/security{
-	icon_state = "camera";
 	dir = 6;
 	c_tag = "SEC - Prison Living Quarters"
 	},
@@ -1447,7 +1412,6 @@
 "gSP" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	icon_state = "leftsecure";
 	dir = 2;
 	req_access = list(2)
 	},
@@ -1493,7 +1457,6 @@
 "hdD" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (NORTHWEST)";
-	icon_state = "bordercolor";
 	dir = 9
 	},
 /turf/simulated/floor/reinforced,
@@ -1535,7 +1498,6 @@
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "north bump";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/item/storage/box/csi_markers,
@@ -1585,8 +1547,7 @@
 /area/fairpoint/engineering/ce)
 "hAV" = (
 /obj/machinery/light{
-	dir = 1;
-	icon_state = "tube_map"
+	dir = 1
 	},
 /obj/structure/cable/blue{
 	icon_state = "4-8"
@@ -1640,7 +1601,6 @@
 "hYt" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (NORTH)";
-	icon_state = "bordercolor";
 	dir = 1
 	},
 /turf/simulated/floor/reinforced,
@@ -1667,7 +1627,6 @@
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/corner/paleblue/full{
 	tag = "icon-corner_white_full (EAST)";
-	icon_state = "corner_white_full";
 	dir = 4
 	},
 /obj/structure/closet/secure_closet/security,
@@ -1703,7 +1662,6 @@
 	dir = 5
 	},
 /obj/effect/floor_decal/industrial/warning/dust{
-	icon_state = "warning_dust";
 	dir = 1
 	},
 /obj/structure/railing/mapped{
@@ -1761,7 +1719,6 @@
 "iuI" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (NORTHEAST)";
-	icon_state = "bordercolor";
 	dir = 5
 	},
 /turf/simulated/floor/reinforced,
@@ -1805,8 +1762,7 @@
 /area/fairpoint/police/armoury)
 "iCp" = (
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/police/warden)
@@ -1831,7 +1787,6 @@
 "iJw" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (SOUTHEAST)";
-	icon_state = "bordercolor";
 	dir = 6
 	},
 /turf/simulated/floor/reinforced,
@@ -1843,7 +1798,6 @@
 "iJF" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/machinery/camera/network/security{
@@ -1851,7 +1805,6 @@
 	},
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /obj/structure/table/reinforced,
@@ -1881,7 +1834,6 @@
 /area/fairpoint/police/brig/interrogation)
 "iOE" = (
 /obj/structure/railing/mapped{
-	icon_state = "railing_preview";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/monofloor,
@@ -1893,8 +1845,7 @@
 	pixel_x = 24
 	},
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white/monotile,
 /area/fairpoint/police/brig/processing)
@@ -1961,7 +1912,6 @@
 "iXs" = (
 /obj/effect/wallframe_spawn/reinforced,
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging/junction{
-	icon_state = "11";
 	dir = 1
 	},
 /obj/effect/wingrille_spawn/reinforced_borosilicate,
@@ -1982,7 +1932,6 @@
 "jdZ" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (SOUTHWEST)";
-	icon_state = "bordercolor";
 	dir = 10
 	},
 /turf/simulated/floor/reinforced,
@@ -2042,7 +1991,6 @@
 	dir = 8
 	},
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/table/steel_reinforced,
@@ -2181,8 +2129,7 @@
 	dir = 8
 	},
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/detectives_office)
@@ -2265,7 +2212,6 @@
 /area/fairpoint/science/rd)
 "ksC" = (
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/table/steel_reinforced,
@@ -2345,8 +2291,7 @@
 "kJj" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Forensics Lab";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/detectives_office)
@@ -2529,7 +2474,6 @@
 "lUk" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/dark,
@@ -2543,7 +2487,6 @@
 "lZs" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	icon_state = "leftsecure";
 	dir = 2;
 	req_access = list(2)
 	},
@@ -2580,7 +2523,6 @@
 /area/fairpoint/street)
 "moQ" = (
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /obj/structure/window/reinforced{
@@ -2647,7 +2589,6 @@
 "mEH" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -2730,8 +2671,7 @@
 "mUh" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Detectives' Office";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/machinery/papershredder,
 /obj/machinery/light/small/emergency,
@@ -2754,7 +2694,6 @@
 	},
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	icon_state = "leftsecure";
 	dir = 2;
 	req_access = list(2)
 	},
@@ -2775,7 +2714,6 @@
 /area/fairpoint/police/vacantoffice)
 "ndO" = (
 /obj/machinery/power/apc/hyper{
-	icon_state = "apc0";
 	dir = 8
 	},
 /obj/structure/cable/blue{
@@ -2807,7 +2745,6 @@
 "nhW" = (
 /obj/effect/floor_decal/corner/lightgrey/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/reinforced,
@@ -2947,7 +2884,6 @@
 "nOd" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/structure/table/reinforced,
@@ -2959,11 +2895,9 @@
 	},
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Detectives' Office";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/structure/hygiene/toilet{
-	icon_state = "toilet00";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
@@ -2977,7 +2911,6 @@
 /area/fairpoint/police/prison/restroom)
 "nUq" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
-	icon_state = "11";
 	dir = 5
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -2993,7 +2926,6 @@
 "oaP" = (
 /obj/effect/floor_decal/corner/lightgrey{
 	tag = "icon-corner_white (SOUTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/steel_ridged,
@@ -3008,7 +2940,6 @@
 "ocD" = (
 /obj/machinery/atmospherics/binary/pump{
 	dir = 1;
-	icon_state = "map_off";
 	target_pressure = 500;
 	use_power = 1
 	},
@@ -3019,7 +2950,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/yellow,
 /obj/item/radio/intercom{
 	dir = 8;
-	icon_state = "intercom";
 	pixel_x = 24
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -3027,7 +2957,6 @@
 "oeC" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /obj/structure/table/reinforced,
@@ -3055,8 +2984,7 @@
 	},
 /obj/machinery/atm{
 	name = "ATM";
-	pixel_x = 32;
-	pixel_y = 0
+	pixel_x = 32
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -3073,7 +3001,6 @@
 	},
 /obj/machinery/flasher{
 	id = "Cell 3";
-	pixel_x = 0;
 	pixel_y = -32
 	},
 /obj/structure/bed,
@@ -3082,7 +3009,6 @@
 "owo" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /turf/simulated/floor/glass,
@@ -3104,15 +3030,13 @@
 	dir = 4
 	},
 /obj/machinery/light/small{
-	dir = 1;
-	pixel_y = 0
+	dir = 1
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison)
 "ozm" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /obj/structure/table/reinforced,
@@ -3127,11 +3051,9 @@
 	},
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Detectives' Office";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/structure/hygiene/toilet{
-	icon_state = "toilet00";
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
@@ -3201,19 +3123,16 @@
 /area/fairpoint/street)
 "oWw" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
-	icon_state = "11";
 	dir = 10
 	},
 /obj/machinery/firealarm{
-	icon_state = "casing";
 	dir = 4
 	},
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/turret_protected/ai_server_room)
 "oZf" = (
 /obj/machinery/light/small{
-	dir = 4;
-	pixel_y = 0
+	dir = 4
 	},
 /obj/machinery/power/apc{
 	dir = 4;
@@ -3224,7 +3143,6 @@
 /area/fairpoint/police/prison/dorm)
 "pat" = (
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/window/reinforced{
@@ -3253,8 +3171,7 @@
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/spline/fancy,
 /obj/effect/floor_decal/spline/fancy{
-	dir = 10;
-	icon_state = "spline_fancy"
+	dir = 10
 	},
 /obj/structure/window/reinforced{
 	dir = 8
@@ -3354,8 +3271,7 @@
 "pMn" = (
 ,
 /obj/machinery/light/small{
-	dir = 4;
-	pixel_y = 0
+	dir = 4
 	},
 /turf/exterior/open,
 /area/fairpoint/street/north)
@@ -3364,7 +3280,6 @@
 /area/fairpoint/police)
 "pPR" = (
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /turf/simulated/floor/glass/boro,
@@ -3418,7 +3333,6 @@
 "qhc" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -3474,7 +3388,6 @@
 	},
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	icon_state = "leftsecure";
 	dir = 2;
 	req_access = list(2)
 	},
@@ -3546,15 +3459,13 @@
 	},
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Main Hallway Center";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
 "qJV" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/structure/table/reinforced,
@@ -3563,11 +3474,9 @@
 /area/fairpoint/police)
 "qNd" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	icon_state = "11-scrubbers";
 	dir = 5
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	icon_state = "11-supply";
 	dir = 6
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -3662,7 +3571,6 @@
 /area/fairpoint/police/cop)
 "qYT" = (
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/table/steel_reinforced,
@@ -3725,7 +3633,6 @@
 "roS" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /turf/simulated/floor/glass,
@@ -3747,7 +3654,6 @@
 /area/fairpoint/police/warden)
 "rwY" = (
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/table/steel_reinforced,
@@ -3820,7 +3726,6 @@
 "rEk" = (
 /obj/effect/floor_decal/corner/blue/border{
 	tag = "icon-bordercolor (WEST)";
-	icon_state = "bordercolor";
 	dir = 8
 	},
 /turf/simulated/floor/reinforced,
@@ -3903,8 +3808,7 @@
 /obj/structure/window/reinforced,
 /obj/effect/floor_decal/spline/fancy,
 /obj/effect/floor_decal/spline/fancy{
-	dir = 6;
-	icon_state = "spline_fancy"
+	dir = 6
 	},
 /obj/structure/window/reinforced{
 	dir = 4
@@ -3965,8 +3869,7 @@
 "suX" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Detectives' Office";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/structure/noticeboard{
 	pixel_y = -32
@@ -4059,7 +3962,6 @@
 /area/fairpoint/police/detectives_office)
 "sOS" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/green{
-	icon_state = "11";
 	dir = 9
 	},
 /turf/simulated/floor/tiled/techfloor,
@@ -4107,7 +4009,6 @@
 "sZo" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	icon_state = "leftsecure";
 	dir = 2;
 	req_access = list(2)
 	},
@@ -4199,12 +4100,10 @@
 "trc" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 5
 	},
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 6
 	},
 /obj/structure/table/reinforced,
@@ -4223,7 +4122,6 @@
 "tvf" = (
 /obj/machinery/door/window/brigdoor/northleft{
 	name = "Weapons locker";
-	icon_state = "leftsecure";
 	dir = 2;
 	req_access = list(2)
 	},
@@ -4322,7 +4220,6 @@
 /obj/machinery/power/apc{
 	dir = 1;
 	name = "north bump";
-	pixel_x = 0;
 	pixel_y = 24
 	},
 /obj/structure/window/reinforced{
@@ -4333,7 +4230,6 @@
 /area/fairpoint/cityhall)
 "tVZ" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
-	icon_state = "11";
 	dir = 1
 	},
 /turf/simulated/floor/bluegrid,
@@ -4343,7 +4239,6 @@
 	pixel_y = 32
 	},
 /obj/structure/window/reinforced{
-	icon_state = "rwindow";
 	dir = 1
 	},
 /turf/simulated/floor/glass/boro,
@@ -4351,7 +4246,6 @@
 "ucp" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
-	icon_state = "corner_white";
 	dir = 9
 	},
 /obj/structure/table/reinforced,
@@ -4367,8 +4261,7 @@
 "ueK" = (
 /obj/effect/floor_decal/corner/red/full,
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -4460,7 +4353,6 @@
 "uAG" = (
 /obj/effect/floor_decal/corner/blue/border{
 	tag = "icon-bordercolor (EAST)";
-	icon_state = "bordercolor";
 	dir = 4
 	},
 /turf/simulated/floor/reinforced,
@@ -4474,7 +4366,6 @@
 /area/fairpoint/cityhall)
 "uLF" = (
 /obj/machinery/atmospherics/portables_connector{
-	icon_state = "map_connector";
 	dir = 1
 	},
 /obj/machinery/portable_atmospherics/canister/nitrogen/prechilled,
@@ -4491,8 +4382,7 @@
 /area/fairpoint/street)
 "uOo" = (
 /obj/machinery/light/small{
-	dir = 8;
-	pixel_x = 0
+	dir = 8
 	},
 /turf/exterior/open,
 /area/fairpoint/street/north)
@@ -4547,7 +4437,6 @@
 /area/fairpoint/police/prison)
 "uWR" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
-	icon_state = "11";
 	dir = 1
 	},
 /obj/machinery/power/apc/super{
@@ -4915,7 +4804,6 @@
 /area/fairpoint/turret_protected/ai_server_room)
 "wWt" = (
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/window/reinforced{
@@ -4944,8 +4832,7 @@
 "wXd" = (
 /obj/machinery/camera/network/security{
 	c_tag = "SEC - Foyer";
-	dir = 10;
-	icon_state = "camera"
+	dir = 10
 	},
 /obj/machinery/washing_machine,
 /turf/simulated/floor/tiled/white,
@@ -4956,7 +4843,6 @@
 	dir = 1
 	},
 /obj/machinery/computer/cryopod{
-	density = 0;
 	layer = 3.3;
 	pixel_y = 32
 	},
@@ -5004,7 +4890,6 @@
 /area/fairpoint/engineering/sysadmin)
 "xuM" = (
 /obj/machinery/power/terminal{
-	icon_state = "term";
 	dir = 8
 	},
 /obj/structure/cable{
@@ -5021,8 +4906,7 @@
 	dir = 6
 	},
 /obj/machinery/light{
-	dir = 1;
-	icon_state = "tube_map"
+	dir = 1
 	},
 /turf/simulated/floor/bluegrid,
 /area/fairpoint/turret_protected/ai_server_room)
@@ -5078,7 +4962,6 @@
 /area/fairpoint/police/prison)
 "xVL" = (
 /obj/structure/window/reinforced{
-	dir = 2;
 	health = 1e+006
 	},
 /obj/structure/filing_cabinet/tall,
