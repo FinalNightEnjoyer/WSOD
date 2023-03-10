@@ -51,7 +51,6 @@
 /area/fairpoint/police)
 "apb" = (
 /obj/machinery/flasher{
-	id = "permaflash";
 	name = "Floor mounted flash"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -437,7 +436,6 @@
 	dir = 9
 	},
 /obj/machinery/flasher{
-	id = "Cell 4";
 	pixel_y = -32
 	},
 /obj/structure/bed,
@@ -983,7 +981,6 @@
 /area/fairpoint/turret_protected/ai_server_room)
 "eJH" = (
 /obj/machinery/button/flasher{
-	id = "holdflash";
 	pixel_y = 32;
 	req_access = list(5)
 	},
@@ -1031,7 +1028,6 @@
 /area/fairpoint/police/prison)
 "eTZ" = (
 /obj/machinery/flasher{
-	id = "holdflash";
 	name = "Floor mounted flash"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -1280,7 +1276,7 @@
 /area/fairpoint/engineering/ce)
 "gnL" = (
 /obj/machinery/network/mainframe{
-	initial_network_id = "kleibkhar"
+	initial_network_id = "fairpoint"
 	},
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 10
@@ -1383,8 +1379,6 @@
 /obj/machinery/network/relay/long_range,
 /turf/simulated/floor/bluegrid{
 	name = "Mainframe Base";
-	nitrogen = 100;
-	oxygen = 0;
 	temperature = 80
 	},
 /area/fairpoint/maintenance/telecomms)
@@ -1888,7 +1882,6 @@
 /area/fairpoint/police/warden)
 "iUn" = (
 /obj/machinery/button/flasher{
-	id = "permaflash";
 	pixel_y = 32;
 	req_access = list(5)
 	},
@@ -2662,11 +2655,6 @@
 	dir = 10
 	},
 /obj/machinery/papershredder,
-/obj/machinery/light/small{
-	brightness_color = "#DA0205";
-	brightness_power = 1;
-	brightness_range = 5
-	},
 /turf/simulated/floor/lino,
 /area/fairpoint/police/detectives_office)
 "mUM" = (
@@ -2691,12 +2679,6 @@
 "ndN" = (
 /obj/effect/floor_decal/corner/red{
 	dir = 9
-	},
-/obj/machinery/power/apc{
-	cell_type = /obj/item/cell/super;
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/vacantoffice)
@@ -2988,7 +2970,6 @@
 	dir = 9
 	},
 /obj/machinery/flasher{
-	id = "Cell 3";
 	pixel_y = -32
 	},
 /obj/structure/bed,
@@ -3217,12 +3198,6 @@
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
 	},
-/obj/machinery/power/apc{
-	cell_type = /obj/item/cell/super;
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/vacantoffice)
 "pFb" = (
@@ -3305,7 +3280,6 @@
 	},
 /obj/machinery/door/blast/shutters{
 	dir = 2;
-	id = "mcpd_chief";
 	layer = 3.1;
 	name = "Privacy Shutters"
 	},
@@ -3764,8 +3738,6 @@
 "rUt" = (
 /turf/simulated/floor/bluegrid{
 	name = "Mainframe Base";
-	nitrogen = 100;
-	oxygen = 0;
 	temperature = 80
 	},
 /area/fairpoint/maintenance/telecomms)
@@ -3894,8 +3866,6 @@
 /obj/machinery/telecomms/broadcaster/preset_right,
 /turf/simulated/floor/bluegrid{
 	name = "Mainframe Base";
-	nitrogen = 100;
-	oxygen = 0;
 	temperature = 80
 	},
 /area/fairpoint/maintenance/telecomms)
@@ -3913,7 +3883,6 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "Secure Gate";
 	name = "Security Blast Door";
 	opacity = 0
 	},
@@ -4076,12 +4045,6 @@
 /area/fairpoint/turret_protected/ai_server_room)
 "tqR" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
-/obj/machinery/power/apc{
-	cell_type = /obj/item/cell/super;
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/fairpoint/police/brig/interrogation)
 "trc" = (
@@ -4302,7 +4265,6 @@
 /area/fairpoint/police/prison)
 "upc" = (
 /obj/machinery/door/airlock/command{
-	id_tag = "HoSdoor";
 	name = "Chief of Police";
 	req_access = list(58)
 	},
@@ -4537,8 +4499,6 @@
 /obj/machinery/telecomms/receiver/preset_right,
 /turf/simulated/floor/bluegrid{
 	name = "Mainframe Base";
-	nitrogen = 100;
-	oxygen = 0;
 	temperature = 80
 	},
 /area/fairpoint/maintenance/telecomms)
@@ -4552,8 +4512,6 @@
 /obj/machinery/telecomms/hub/preset,
 /turf/simulated/floor/bluegrid{
 	name = "Mainframe Base";
-	nitrogen = 100;
-	oxygen = 0;
 	temperature = 80
 	},
 /area/fairpoint/maintenance/telecomms)
@@ -4839,7 +4797,6 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "Secure Gate";
 	name = "Security Blast Door";
 	opacity = 0
 	},
@@ -4887,7 +4844,7 @@
 /area/fairpoint/turret_protected/ai_server_room)
 "xxL" = (
 /obj/machinery/network/router{
-	initial_network_id = "kleibkhar"
+	initial_network_id = "fairpoint"
 	},
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 6
