@@ -38,6 +38,7 @@
 	#include "fairpoint_network.dm"
 	#include "fairpoint_supply.dm"
 	#include "fairpoint_zlevels.dm"
+	#include "fairpoint_unit_testing.dm"
 
 	#include "fairpoint-1.dmm"
 	#include "fairpoint-2.dmm"
