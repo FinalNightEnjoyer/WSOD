@@ -229,7 +229,6 @@
 /area/fairpoint/street/west)
 "apv" = (
 /obj/structure/closet/secure_closet/brig{
-	id = "Cell 3";
 	name = "Cell 3 Locker"
 	},
 /obj/effect/floor_decal/corner/grey{
@@ -1473,13 +1472,11 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "Secure Gate";
 	name = "Security Blast Door";
 	opacity = 0
 	},
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
-	id = "Cell 2";
 	name = "Cell 2"
 	},
 /obj/effect/floor_decal/corner/red{
@@ -1610,13 +1607,11 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "Secure Gate";
 	name = "Security Blast Door";
 	opacity = 0
 	},
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
-	id = "Cell 6";
 	name = "Cell 2"
 	},
 /obj/effect/floor_decal/corner/red{
@@ -1656,13 +1651,11 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "Secure Gate";
 	name = "Security Blast Door";
 	opacity = 0
 	},
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
-	id = "Cell 1";
 	name = "Cell 1"
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -1734,7 +1727,6 @@
 	dir = 9
 	},
 /obj/machinery/flasher{
-	id = "Cell 4";
 	pixel_y = -32
 	},
 /obj/structure/bed,
@@ -1799,7 +1791,6 @@
 /area/fairpoint/cityhall/meeting_room)
 "cdC" = (
 /obj/machinery/door/blast/shutters{
-	id = "cmoprivacyshutters";
 	name = "CMO Privacy Shutters"
 	},
 /obj/effect/wingrille_spawn/reinforced,
@@ -1917,7 +1908,6 @@
 "ckj" = (
 /obj/machinery/door/blast/shutters{
 	dir = 2;
-	id = "cryo";
 	name = "Cryogenics Shutters"
 	},
 /obj/effect/wingrille_spawn/reinforced,
@@ -2168,7 +2158,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	id = "chemcounter1";
 	name = "Pharmacy Counter Shutters";
 	opacity = 0
 	},
@@ -2233,7 +2222,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	id = "hop_office_desk";
 	name = "HoP Office Privacy Shutters";
 	opacity = 0
 	},
@@ -2331,7 +2319,6 @@
 	density = 0;
 	dir = 8;
 	icon_state = "shutter0";
-	id = "hop_office_desk";
 	name = "HoP Office Privacy Shutters";
 	opacity = 0
 	},
@@ -2516,7 +2503,6 @@
 /obj/machinery/door/blast/shutters{
 	dir = 2;
 	icon_state = "shutter0";
-	id = "courtlawyer1";
 	name = "Prosecution Shutters"
 	},
 /obj/effect/wingrille_spawn/reinforced,
@@ -3651,7 +3637,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	id = "hop_office_desk";
 	name = "HoP Office Privacy Shutters";
 	opacity = 0
 	},
@@ -3935,7 +3920,6 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "Biohazard";
 	name = "Biohazard Shutter";
 	opacity = 0
 	},
@@ -4156,7 +4140,6 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "misclab";
 	name = "Test Chamber Blast Doors";
 	opacity = 0
 	},
@@ -4173,7 +4156,6 @@
 /area/fairpoint/research/server)
 "fAu" = (
 /obj/machinery/button/flasher{
-	id = "mentalhealth";
 	name = "medical flasher button";
 	pixel_y = 32;
 	req_access = list(5)
@@ -4616,7 +4598,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	id = "hospbreakroom";
 	layer = 3.1;
 	name = "Hospital Break Room Shutters";
 	opacity = 0
@@ -4641,7 +4622,6 @@
 	dir = 10
 	},
 /obj/machinery/button/holosign{
-	id = "surgery1";
 	pixel_x = 10;
 	pixel_y = -26
 	},
@@ -4776,7 +4756,6 @@
 	dir = 6
 	},
 /obj/structure/closet/secure_closet/brig{
-	id = "Cell 1";
 	name = "Cell 1 Locker"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -5331,7 +5310,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	id = "hop_office_desk";
 	name = "HoP Office Privacy Shutters";
 	opacity = 0
 	},
@@ -5486,7 +5464,6 @@
 	density = 0;
 	dir = 8;
 	icon_state = "shutter0";
-	id = "hop_office_desk";
 	name = "HoP Office Privacy Shutters";
 	opacity = 0
 	},
@@ -5920,7 +5897,6 @@
 	dir = 10
 	},
 /obj/machinery/button/holosign{
-	id = "surgery2";
 	pixel_x = 10;
 	pixel_y = -26
 	},
@@ -6119,7 +6095,6 @@
 	density = 0;
 	dir = 4;
 	icon_state = "shutter0";
-	id = "hop_office_desk";
 	name = "HoP Office Privacy Shutters";
 	opacity = 0
 	},
@@ -6145,7 +6120,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	id = "chemcounter2";
 	name = "Pharmacy Counter Shutters";
 	opacity = 0
 	},
@@ -6412,7 +6386,6 @@
 /area/fairpoint/police/vacantoffice)
 "iJF" = (
 /obj/machinery/flasher{
-	id = "Cell 1";
 	pixel_y = 32
 	},
 /obj/effect/floor_decal/corner/grey{
@@ -7610,7 +7583,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	id = "heads_meeting";
 	name = "Meeting Room Window Shutters";
 	opacity = 0
 	},
@@ -8043,7 +8015,6 @@
 /obj/machinery/door/blast/shutters{
 	dir = 2;
 	icon_state = "shutter0";
-	id = "courtlawyer3";
 	name = "Magistrate Shutters"
 	},
 /obj/effect/wingrille_spawn/reinforced,
@@ -9068,7 +9039,6 @@
 /area/fairpoint/maintenance/surface)
 "mua" = (
 /obj/machinery/holosign/surgery{
-	id = "surgery2"
 	},
 /obj/machinery/door/airlock/medical{
 	name = "Operating Theatre 2";
@@ -9178,7 +9148,6 @@
 	dir = 6
 	},
 /obj/structure/closet/secure_closet/brig{
-	id = "Cell 4";
 	name = "Cell 4 Locker"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -9276,7 +9245,6 @@
 	density = 0;
 	dir = 8;
 	icon_state = "shutter0";
-	id = "surgeryobs2";
 	name = "Surgery Shutters";
 	opacity = 0
 	},
@@ -9557,7 +9525,6 @@
 "ngS" = (
 /obj/machinery/door/blast/shutters{
 	dir = 8;
-	id = "policecar";
 	name = "Police Car Park"
 	},
 /turf/exterior/concrete/reinforced/road,
@@ -9632,7 +9599,6 @@
 	density = 0;
 	dir = 8;
 	icon_state = "shutter0";
-	id = "surgeryobs1";
 	name = "Surgery Shutters";
 	opacity = 0
 	},
@@ -9705,7 +9671,6 @@
 	density = 0;
 	dir = 4;
 	icon_state = "shutter0";
-	id = "hop_office_desk";
 	name = "HoP Office Privacy Shutters";
 	opacity = 0
 	},
@@ -9815,7 +9780,6 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "misclab";
 	name = "Test Chamber Blast Doors";
 	opacity = 0
 	},
@@ -9903,7 +9867,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	id = "hop_office_desk";
 	name = "HoP Office Privacy Shutters";
 	opacity = 0
 	},
@@ -9927,7 +9890,6 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "misclab";
 	name = "Test Chamber Blast Doors";
 	opacity = 0
 	},
@@ -10078,7 +10040,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	id = "chemcounter1";
 	name = "Pharmacy Counter Shutters";
 	opacity = 0
 	},
@@ -10108,7 +10069,6 @@
 /area/fairpoint/cityhall/meeting_room)
 "nOd" = (
 /obj/machinery/flasher{
-	id = "Cell 2";
 	pixel_y = 32
 	},
 /obj/effect/floor_decal/corner/grey{
@@ -10197,7 +10157,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	id = "chemcounter2";
 	name = "Pharmacy Counter Shutters";
 	opacity = 0
 	},
@@ -10503,7 +10462,6 @@
 	dir = 9
 	},
 /obj/machinery/flasher{
-	id = "Cell 3";
 	pixel_y = -32
 	},
 /obj/structure/bed,
@@ -11085,13 +11043,11 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "Secure Gate";
 	name = "Security Blast Door";
 	opacity = 0
 	},
 /obj/machinery/door/window/brigdoor{
 	dir = 1;
-	id = "Cell 5";
 	name = "Cell 5"
 	},
 /obj/effect/floor_decal/corner/paleblue{
@@ -11163,7 +11119,6 @@
 /obj/machinery/door/blast/shutters{
 	dir = 2;
 	icon_state = "shutter0";
-	id = "courtlawyer3";
 	name = "Magistrate Shutters"
 	},
 /obj/structure/grille,
@@ -11374,7 +11329,6 @@
 /obj/machinery/door/blast/shutters{
 	dir = 2;
 	icon_state = "shutter0";
-	id = "courtlawyer3";
 	name = "Magistrate Shutters"
 	},
 /obj/structure/grille,
@@ -12101,7 +12055,6 @@
 /obj/machinery/door/blast/shutters{
 	dir = 2;
 	icon_state = "shutter0";
-	id = "courtlawyer3";
 	name = "Magistrate Shutters"
 	},
 /obj/effect/wingrille_spawn/reinforced/polarized,
@@ -12625,7 +12578,6 @@
 	density = 0;
 	dir = 2;
 	icon_state = "shutter0";
-	id = "hospbreakroom";
 	layer = 3.1;
 	name = "Hospital Break Room Shutters";
 	opacity = 0
@@ -13381,7 +13333,6 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "Secure Gate";
 	name = "Security Blast Door";
 	opacity = 0
 	},
@@ -13389,7 +13340,6 @@
 	dir = 5
 	},
 /obj/machinery/door/window/brigdoor/southleft{
-	id = "Cell 4";
 	name = "Cell 4";
 	req_access = list(2)
 	},
@@ -13669,7 +13619,6 @@
 	density = 0;
 	dir = 8;
 	icon_state = "shutter0";
-	id = "surgeryobs2";
 	name = "Surgery Shutters";
 	opacity = 0
 	},
@@ -13809,7 +13758,6 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "Biohazard";
 	name = "Biohazard Shutter";
 	opacity = 0
 	},
@@ -13986,7 +13934,6 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "misclab";
 	name = "Test Chamber Blast Doors";
 	opacity = 0
 	},
@@ -14048,7 +13995,6 @@
 	dir = 6
 	},
 /obj/structure/closet/secure_closet/brig{
-	id = "Cell 2";
 	name = "Cell 2 Locker"
 	},
 /turf/simulated/floor/tiled/dark,
@@ -14170,7 +14116,6 @@
 /area/fairpoint/hallway/secondary/exit)
 "tDh" = (
 /obj/machinery/conveyor_switch{
-	id = "cargoserve";
 	name = "cargo service switch"
 	},
 /turf/simulated/floor/tiled,
@@ -14341,7 +14286,6 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "misclab";
 	name = "Test Chamber Blast Doors";
 	opacity = 0
 	},
@@ -14521,7 +14465,6 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "misclab";
 	name = "Test Chamber Blast Doors";
 	opacity = 0
 	},
@@ -15034,7 +14977,6 @@
 /area/fairpoint/street/east)
 "uKJ" = (
 /obj/machinery/holosign/surgery{
-	id = "surgery1"
 	},
 /obj/machinery/door/airlock/medical{
 	name = "Operating Theatre 1";
@@ -15231,7 +15173,6 @@
 "uYQ" = (
 /obj/machinery/conveyor{
 	dir = 1;
-	id = "anolaser"
 	},
 /obj/structure/plasticflaps,
 /obj/structure/window/reinforced{
@@ -15793,7 +15734,6 @@
 	density = 0;
 	dir = 8;
 	icon_state = "shutter0";
-	id = "surgeryobs1";
 	name = "Surgery Shutters";
 	opacity = 0
 	},
@@ -15862,7 +15802,6 @@
 /obj/machinery/door/blast/shutters{
 	dir = 2;
 	icon_state = "shutter0";
-	id = "courtlawyer2";
 	name = "Defense Shutters"
 	},
 /obj/structure/grille,
@@ -16239,7 +16178,6 @@
 /obj/machinery/door/blast/shutters{
 	dir = 2;
 	icon_state = "shutter0";
-	id = "courtlawyer1";
 	name = "Prosecution Shutters"
 	},
 /obj/structure/grille,
@@ -16318,7 +16256,6 @@
 	},
 /obj/machinery/door/blast/shutters{
 	dir = 4;
-	id = "janitor_blast";
 	layer = 3.1;
 	name = "Janitorial Shutters"
 	},
@@ -16555,7 +16492,6 @@
 "wNo" = (
 /obj/machinery/door/blast/shutters{
 	dir = 2;
-	id = "cmoprivacyshutters";
 	name = "CMO Privacy Shutters"
 	},
 /obj/effect/floor_decal/corner/paleblue/diagonal,
@@ -16798,12 +16734,10 @@
 /obj/machinery/door/blast/regular{
 	density = 0;
 	icon_state = "pdoor0";
-	id = "Secure Gate";
 	name = "Security Blast Door";
 	opacity = 0
 	},
 /obj/machinery/door/window/brigdoor/southleft{
-	id = "Cell 3";
 	name = "Cell 3";
 	req_access = list(2)
 	},
@@ -17569,7 +17503,6 @@
 	density = 0;
 	dir = 8;
 	icon_state = "shutter0";
-	id = "hop_office_desk";
 	name = "HoP Office Privacy Shutters";
 	opacity = 0
 	},
