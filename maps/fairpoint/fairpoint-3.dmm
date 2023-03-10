@@ -707,11 +707,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
 "drO" = (
-/obj/effect/floor_decal/corner/red{
-	dir = 9
-	},
-/turf/simulated/floor/tiled,
-/area/fairpoint/police/vacantoffice)
+/obj/machinery/power/apc,
+/turf/simulated/wall/r_wall,
+/area/fairpoint/engineering/ce)
 "dsJ" = (
 /obj/item/storage/slide_projector,
 /obj/structure/table/woodentable_reinforced/walnut,
@@ -733,7 +731,7 @@
 /area/fairpoint/police/vacantoffice)
 "duI" = (
 /obj/machinery/door/blast/regular,
-/turf/exterior/water,
+/turf/simulated/floor/tiled/dark,
 /area/fairpoint/street/outskirts)
 "dyE" = (
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
@@ -979,16 +977,9 @@
 /obj/machinery/camera/network/engineering,
 /turf/simulated/floor/tiled/techfloor,
 /area/fairpoint/turret_protected/ai_server_room)
-"eJH" = (
-/obj/machinery/button/flasher{
-	pixel_y = 32;
-	req_access = list(5)
-	},
-/turf/simulated/floor/tiled/monotile,
-/area/fairpoint/police/prison)
 "eLn" = (
 /obj/machinery/door/blast/regular,
-/turf/exterior/water,
+/turf/simulated/floor/tiled/dark,
 /area/fairpoint/street)
 "eLG" = (
 /obj/structure/table/reinforced,
@@ -1027,11 +1018,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/prison)
 "eTZ" = (
-/obj/machinery/flasher{
-	name = "Floor mounted flash"
-	},
-/turf/simulated/floor/tiled/dark,
-/area/fairpoint/police/prison)
+/obj/machinery/power/apc,
+/turf/simulated/wall/r_wall,
+/area/fairpoint/panicroom)
 "eVL" = (
 /obj/structure/closet/bombclosetsecurity,
 /turf/simulated/floor/tiled/techfloor,
@@ -1312,7 +1301,7 @@
 	req_access = list(63)
 	},
 /obj/effect/floor_decal/corner/blue/diagonal,
-/turf/space,
+/turf/simulated/floor/tiled/dark,
 /area/fairpoint/police/brig/interrogation)
 "gCM" = (
 /obj/structure/sign/number/six,
@@ -2642,7 +2631,7 @@
 /area/fairpoint/police/armoury)
 "mTK" = (
 /obj/machinery/door/blast/shutters/indestructible,
-/turf/exterior/water,
+/turf/simulated/floor/tiled/dark,
 /area/fairpoint/street/outskirts)
 "mUa" = (
 /obj/effect/wallframe_spawn/reinforced,
@@ -3232,11 +3221,9 @@
 /turf/simulated/floor/lino,
 /area/fairpoint/police/detectives_office)
 "pMn" = (
-/obj/machinery/light/small{
-	dir = 4
-	},
-/turf/exterior/open,
-/area/fairpoint/street/north)
+/obj/machinery/power/apc,
+/turf/simulated/wall/r_wall,
+/area/fairpoint/maintenance/telecomms)
 "pNB" = (
 /turf/simulated/floor/tiled/dark,
 /area/fairpoint/police)
@@ -4044,9 +4031,9 @@
 /turf/simulated/floor/tiled/steel_grid,
 /area/fairpoint/turret_protected/ai_server_room)
 "tqR" = (
-/obj/effect/floor_decal/corner/blue/diagonal,
-/turf/simulated/floor/tiled/techfloor/grid,
-/area/fairpoint/police/brig/interrogation)
+/obj/machinery/power/apc,
+/turf/simulated/wall/r_wall,
+/area/fairpoint/engineering/sysadmin)
 "trc" = (
 /obj/effect/floor_decal/corner/grey{
 	tag = "icon-corner_white (NORTHEAST)";
@@ -4388,9 +4375,6 @@
 /obj/machinery/atmospherics/pipe/simple/heat_exchanging{
 	dir = 1
 	},
-/obj/machinery/power/apc/super{
-	dir = 8
-	},
 /obj/structure/cable/blue,
 /turf/simulated/floor/bluegrid,
 /area/fairpoint/turret_protected/ai_server_room)
@@ -4648,7 +4632,7 @@
 /area/fairpoint/police/vacantoffice)
 "wDy" = (
 /obj/machinery/door/blast/shutters/indestructible,
-/turf/exterior/water,
+/turf/simulated/floor/tiled/dark,
 /area/fairpoint/street)
 "wDE" = (
 /turf/simulated/floor/lino,
@@ -17971,7 +17955,7 @@ vMj
 aZP
 aZP
 aZP
-cGB
+pMn
 fnC
 gqn
 gqn
@@ -18931,7 +18915,7 @@ roH
 roH
 dVA
 ngt
-drO
+ndN
 ndN
 uGq
 uGq
@@ -19366,7 +19350,7 @@ gqn
 gqn
 fnC
 igg
-rIE
+drO
 rIE
 rIE
 rIE
@@ -20350,7 +20334,7 @@ ykF
 qxM
 wFc
 iNU
-tqR
+wKo
 nqa
 tDL
 nqk
@@ -20985,7 +20969,7 @@ fjd
 fjd
 fjd
 fjd
-fjd
+tqR
 vJR
 fqU
 fqU
@@ -21608,7 +21592,7 @@ hak
 hak
 hak
 hak
-cTq
+eTZ
 gqn
 gqn
 gqn
@@ -25184,7 +25168,7 @@ nSQ
 qAc
 dke
 dke
-eTZ
+apb
 dke
 xMj
 uWM
@@ -25389,7 +25373,7 @@ dke
 dke
 dke
 fqq
-eJH
+iUn
 uWM
 dke
 tgH
@@ -41137,10 +41121,10 @@ snK
 snK
 snK
 snK
-pMn
 snK
 snK
-pMn
+snK
+snK
 snK
 snK
 snK
