@@ -461,7 +461,7 @@
 "aAT" = (
 /obj/structure/window/reinforced,
 /obj/structure/closet/secure_closet{
-	req_one_access = list(4,42,43)
+	req_access = list(4,42,43)
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/law)
@@ -858,7 +858,7 @@
 "aVY" = (
 /obj/machinery/door/airlock/medical{
 	req_access = newlist();
-	req_one_access = list(32,5)
+	req_access = list(32,5)
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
@@ -3021,7 +3021,7 @@
 	id_tag = "escape_dock";
 	name = "docking port controller";
 	pixel_x = 25;
-	req_one_access = list(13);
+	req_access = list(13);
 	tag_door = "escape_dock_airlock"
 	},
 /turf/simulated/wall/concrete,
@@ -3745,8 +3745,7 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
-	outdoors = 1
+	name = "exterior tiles"
 	},
 /area/fairpoint/street)
 "eZr" = (
@@ -5019,7 +5018,6 @@
 "gMC" = (
 /turf/simulated/floor/tiled/techmaint{
 	name = "landing floor";
-	outdoors = 1
 	},
 /turf/simulated/wall/concrete,
 /area/fairpoint/street/west)
@@ -7276,7 +7274,7 @@
 /area/fairpoint/street/east)
 "jTr" = (
 /obj/machinery/door/airlock/engineering{
-	req_one_access = list(1,32)
+	req_access = list(1,32)
 	},
 /turf/simulated/floor/plating,
 /area/fairpoint/maintenance/police)
@@ -8386,8 +8384,7 @@
 "lwU" = (
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
-	outdoors = 1
+	name = "exterior tiles"
 	},
 /turf/simulated/wall/concrete,
 /area/fairpoint/street/west)
@@ -8458,8 +8455,7 @@
 /obj/effect/floor_decal/spline/fancy,
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
-	outdoors = 1
+	name = "exterior tiles"
 	},
 /area/fairpoint/street)
 "lCu" = (
@@ -9031,9 +9027,7 @@
 	health = 1e+006
 	},
 /turf/simulated/floor/tiled{
-	color = "";
-	name = "exterior tiles";
-	outdoors = 1
+	color = ""
 	},
 /area/fairpoint/street)
 "mpp" = (
@@ -9843,7 +9837,6 @@
 /turf/simulated/floor/wood/walnut{
 	desc = "Water resistant wooden planks. Watch out for nails!";
 	name = "wooden dock planks";
-	outdoors = 1
 	},
 /area/fairpoint/hydroponics/garden)
 "nyn" = (
@@ -10335,7 +10328,6 @@
 /turf/simulated/floor/wood/walnut{
 	desc = "Water resistant wooden planks. Watch out for nails!";
 	name = "wooden dock planks";
-	outdoors = 1
 	},
 /area/fairpoint/hydroponics/garden)
 "ofV" = (
@@ -10938,8 +10930,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
-	outdoors = 1
+	name = "exterior tiles"
 	},
 /area/fairpoint/street)
 "pbf" = (
@@ -11492,8 +11483,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
-	outdoors = 1
+	name = "exterior tiles"
 	},
 /area/fairpoint/street)
 "pPS" = (
@@ -12031,7 +12021,7 @@
 "qIE" = (
 /obj/machinery/door/airlock/medical{
 	req_access = newlist();
-	req_one_access = list(32,5)
+	req_access = list(32,5)
 	},
 /obj/effect/decal/cleanable/dirt,
 /obj/structure/tape_barricade/door,
@@ -12360,8 +12350,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
-	outdoors = 1
+	name = "exterior tiles"
 	},
 /area/fairpoint/street)
 "reu" = (
@@ -12901,13 +12890,12 @@
 "rMV" = (
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
-	outdoors = 1
+	name = "exterior tiles"
 	},
 /area/fairpoint/street)
 "rMX" = (
 /obj/structure/closet/secure_closet{
-	req_one_access = list(4,42,43)
+	req_access = list(4,42,43)
 	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/law)
@@ -13163,8 +13151,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
-	outdoors = 1
+	name = "exterior tiles"
 	},
 /area/fairpoint/street)
 "snK" = (
@@ -14501,8 +14488,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
-	outdoors = 1
+	name = "exterior tiles"
 	},
 /area/fairpoint/street)
 "tZq" = (
@@ -15041,7 +15027,7 @@
 "uKA" = (
 /obj/machinery/door/airlock/medical{
 	req_access = newlist();
-	req_one_access = list(32,5)
+	req_access = list(32,5)
 	},
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/plating,
@@ -15493,8 +15479,7 @@
 	},
 /turf/simulated/floor/tiled{
 	color = "";
-	name = "exterior tiles";
-	outdoors = 1
+	name = "exterior tiles"
 	},
 /area/fairpoint/street)
 "vud" = (
