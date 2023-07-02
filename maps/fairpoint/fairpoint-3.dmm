@@ -252,11 +252,6 @@
 	dir = 10
 	},
 /obj/machinery/papershredder,
-/obj/machinery/light/small{
-	brightness_color = "#DA0205";
-	brightness_power = 1;
-	brightness_range = 5
-	},
 /turf/simulated/floor/lino,
 /area/fairpoint/police/detectives_office)
 "ct" = (
@@ -1855,12 +1850,6 @@
 /obj/effect/floor_decal/corner/red{
 	dir = 9
 	},
-/obj/machinery/power/apc{
-	cell_type = /obj/item/weapon/cell/super;
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
 /turf/simulated/floor/tiled,
 /area/fairpoint/police/vacantoffice)
 "ox" = (
@@ -3210,12 +3199,6 @@
 "zo" = (
 /obj/effect/floor_decal/corner/paleblue{
 	dir = 9
-	},
-/obj/machinery/power/apc{
-	cell_type = /obj/item/weapon/cell/super;
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
 	},
 /turf/simulated/floor/tiled/white,
 /area/fairpoint/police/vacantoffice)
@@ -5086,12 +5069,6 @@
 /area/fairpoint/police/brig/processing)
 "NM" = (
 /obj/effect/floor_decal/corner/blue/diagonal,
-/obj/machinery/power/apc{
-	cell_type = /obj/item/weapon/cell/super;
-	dir = 8;
-	name = "west bump";
-	pixel_x = -24
-	},
 /turf/simulated/floor/tiled/techfloor/grid,
 /area/fairpoint/police/brig/interrogation)
 "NR" = (
